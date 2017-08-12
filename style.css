@@ -1,0 +1,41 @@
+/*The entire point of CSS is to provide extra utilities to make websites look better. 
+It does this by essentially allowing for the use of widespread tags and 
+extra element specifics that can change the look of the website. */
+*{
+	box-sizing: border-box;
+}
+
+li{
+	color: red;
+}
+
+/*I love chicken*/
+
+img{
+	width: 500px;
+	/*height: 200px;*/
+}
+
+
+/*. anything changes the class attribute of the element*/
+.awesome{
+	color: pink;
+	background-color: lightblue;
+}
+
+/*# anything changes the id attribute of the element*/
+#coolest{
+	border: 5px solid silver;
+	padding: 20px;
+	color: silver;
+	background-color: #648433;
+}
+
+.main{
+	width: 70%;
+	float left;
+}
+
+.sidebar{
+	width: 40%;
+}
