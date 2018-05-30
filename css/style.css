@@ -1,4 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
+@font-face {
+  font-family: 'Bauhinia_Chinese';
+  src: url('./../assets/bauhinia_font.ttf')  format('truetype');
+}
 
 * {
   margin:0;
@@ -8,41 +12,66 @@
 }
 
 html { 
-  background: url("/assets/unsplash5.jpg") no-repeat 0 -12vh fixed;
+  /* background: url("./../assets/unsplash3.jpg") no-repeat 0 -12vh fixed; */
+  background: url("./../assets/main_background_up.jpg") no-repeat 0 -0vh fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   height: 100%;
+  margin-top: 10%;
 }
 
 ::-webkit-scrollbar { 
-    display: none; 
+    display: none;
+}
+
+.title-div {
+  text-align: left;
+  top: 15%;
+  left: 7.5%;
+  position: fixed;
+  z-index: 999;
+  width: 50%;
+  background: rgba(255,255,255,0);
+  border-bottom: 2px black;
+  cursor: default;
 }
 
 .title {
   font-family: 'Ubuntu';
-  font-size: 25px;
+  font-size: 75px;
   margin-bottom: 0.85%;
-  margin-top: 1.25%;
-  /* color: #EEEEEE; */
+  color: beige;
+  text-shadow:
+    -1px -1px 0 #666,
+    1px -1px 0 #666,
+    -1px 1px 0 #666,
+    1px 1px 0 #666;
 }
 
-.mainbody {
+#welcometext {
   font-family: 'Cardo';
-  font-size: 16px;
-  /* color: #EEEEEE; */
+  font-size: 25px;
+  color: beige;
+  text-shadow:
+    -1px -1px 0 #666,
+    1px -1px 0 #666,
+    -1px 1px 0 #666,
+    1px 1px 0 #666;
+  margin: 1px;
 }
 
-.center {
-  text-align: center;
-  height: 15%;
-  position: fixed;
-  z-index: 999;
-  width: 100%;
-  background: rgba(255,255,255,0.9);
-  border-bottom: 2px black;
-  cursor: default;
+#smalltext {
+  font-family: 'Cardo';
+  font-size: 17px;
+  color: beige;
+  text-shadow:
+    -1px -1px 0 #666,
+    1px -1px 0 #666,
+    -1px 1px 0 #666,
+    1px 1px 0 #666;
+  margin: 1px;
 }
 
 .fixed-bg {
@@ -156,6 +185,27 @@ html {
   animation-name: animatebottom;
   animation-duration: 1s;
   background: #FBFBFB;
+}
+
+.chinese_font_div {
+  position: fixed;
+  top: 23.5%;
+  left: 54.75%;
+  cursor: default;
+}
+
+.chinese_font span {
+  writing-mode: vertical-lr;
+  -webkit-writing-mode: vertical-lr;
+  -ms-writing-mode: vertical-lr;
+  color: beige;
+  text-shadow:
+    -1px -1px 0 #666,
+    1px -1px 0 #666,
+    -1px 1px 0 #666,
+    1px 1px 0 #666;
+  font-size: 110px;
+  font-family: 'Bauhinia_Chinese';
 }
 
 /* -------------- ANIMATIONS -------------- */
