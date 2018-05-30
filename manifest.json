@@ -1,18 +1,58 @@
 {
-    "name": "",
-    "icons": [
-        {
-            "src": "/android-chrome-192x192.png",
-            "sizes": "192x192",
-            "type": "image/png"
-        },
-        {
-            "src": "/android-chrome-512x512.png",
-            "sizes": "512x512",
-            "type": "image/png"
-        }
-    ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
-    "display": "standalone"
+  "background": {
+    "persistent": true,
+    "scripts": [
+      "js/jquery-3.3.1.min.js",
+      "js/asana_bridge.js",
+      "js/extension_server.js",
+      "js/server_mngr.js",
+      "js/options.js",
+      "js/main.js",
+      "js/background.js"
+    ]
+  },
+  
+  "manifest_version": 2,
+  "name": "Asana Tab",
+  "version": "1.3",
+
+  "chrome_url_overrides" : {
+    "newtab": "index.html"
+  },
+
+  "content_security_policy": "script-src 'self'; object-src 'self'",
+  "description": "Quickly view Asana tasks from the new tab page.",
+
+  "icons": {
+    "16": "assets/icon16.png",
+    "48": "assets/icon48.png",
+    "128": "assets/icon128.png"
+  },
+
+  "permissions": [
+    "background",
+    "tabs",
+    "storage",
+    "cookies",
+    "activeTab",
+    "notifications",
+    "webRequest",
+    "webRequestBlocking",
+    "*://*.asana.com/*",
+    "http://*/*",
+    "https://*/*"
+  ],
+
+  "web_accessible_resources": [
+    "assets/icon16.png",
+    "assets/icon48.png",
+    "assets/icon128.png"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["http://www.google.com/*"],
+      "js": ["js/main.js"]
+    }
+  ]
 }

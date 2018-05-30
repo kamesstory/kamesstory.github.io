@@ -1,0 +1,142 @@
+@import "compass/css3";
+
+h2.ls {
+  font-family: 'Ubuntu';
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  padding: 0;
+}
+
+ul.ls {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li.ls {
+  border-bottom: 1px solid #ccc;
+  padding: 0.5px;
+}
+
+li.ls:last-child {
+  border: none;
+}
+
+li.ls:hover {
+  background: #F3F3F7;
+}
+
+li.ls a.n {
+  position: absolute;
+  padding: 10px 0px 10px 1.5px;
+  text-decoration: none;
+  font-family: 'PT Sans', serif;
+  font-size: 14px;
+  color: #000;
+  display: inline;
+  width: 75%;
+}
+
+li.ls a.duedate {
+  position: absolute;
+  right: 0px;
+  padding: 10px 0px 10px 0px;
+  text-decoration: none;
+  font-family: 'PT Sans', serif;
+  font-size: 14px;
+  color: #000;
+  display: inline;
+  width: 22.5%;
+}
+
+li.ls button.donetask{
+  background: url( "/assets/checkmark.png" ) no-repeat;
+  background-size: 100%;
+  cursor: pointer;
+  border: none;
+  margin: 5px;
+  width: 27px;
+  height: 27px;
+  display: inline;
+}
+
+li.ls button.donetask:hover {
+  background: url( "/assets/checkmark_filled.png" ) no-repeat;
+  background-size: 100%;
+  outline: none;
+  border-color: transparent;
+  border: none; /*
+  -webkit-animation-name: colorChange;
+  -webkit-animation-duration: 0.5s;
+  animation-name: colorChange;
+  animation-duration: 0.5s; */
+}
+
+li.ls button.donetask:focus {
+  outline: none;
+  border-color: transparent;
+  border: none;
+}
+
+li.ls2 {}
+
+li.ls2 input.newadd {
+  width: 72.5%;
+  border: none;
+  border-color: transparent;
+  outline: none;
+  padding:10px 0px 10px 20px;
+  text-decoration: none;
+  font-family: 'PT Sans', serif;
+  font-size: 14px;
+  display: inline;
+  cursor: text;
+  background: #FBFBFB;
+}
+
+li.ls2 div {
+  position: absolute;
+  right: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 0px;
+  display: inline;
+  width: 25%;
+}
+
+li.ls2 a.in {
+  padding-right: 5px;
+  text-decoration: none;
+  font-family: 'PT Sans', serif;
+  font-size: 14px;
+  color: #777;
+  display: inline;
+  cursor: default;
+}
+
+li.ls2 input.dateinput {
+  border: none;
+  border-color: transparent;
+  outline: none;
+  text-decoration: none;
+  font-family: 'PT Sans', serif;
+  font-size: 14px;
+  display: inline;
+  cursor: text;
+  background: #FBFBFB;
+  color: #777;
+}
+
+/* -------------- ANIMATIONS -------------- */
+
+@-webkit-keyframes colorChange {
+  from { opacity:0 } 
+  to { opacity:1 }
+}
+
+@keyframes colorChange { 
+  from{ opacity:0 } 
+  to{ opacity:1 }
+}
