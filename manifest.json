@@ -3,22 +3,13 @@
     "persistent": true,
     "scripts": [
       "js/jquery-3.3.1.min.js",
-      "js/asana_bridge.js",
-      "js/extension_server.js",
-      "js/server_mngr.js",
-      "js/options.js",
-      "js/main.js",
-      "js/background.js"
+      "js/main.js"
     ]
   },
   
   "manifest_version": 2,
-  "name": "Asana Tab",
+  "name": "Jason Wang | Home",
   "version": "1.3",
-
-  "chrome_url_overrides" : {
-    "newtab": "index.html"
-  },
 
   "content_security_policy": "script-src 'self'; object-src 'self'",
   "description": "Quickly view Asana tasks from the new tab page.",
