@@ -13,11 +13,9 @@
 
 html { 
   /* background: url("./../assets/unsplash3.jpg") no-repeat 0 -12vh fixed; */
-  background: url("./../assets/main_background_up.jpg") no-repeat 0 -0vh fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background: url("./../assets/china_misty_mountain_painting.png") no-repeat fixed;
   background-size: cover;
+  background-position: right;
   height: 100%;
   margin-top: 10%;
 }
@@ -26,9 +24,9 @@ html {
     display: none;
 }
 
-.title-div {
+.title-and-content {
   text-align: left;
-  top: 15%;
+  bottom: 15%;
   left: 7.5%;
   position: fixed;
   z-index: 999;
@@ -38,39 +36,40 @@ html {
   cursor: default;
 }
 
+.title-div {
+  cursor: default;
+}
+
 .title {
   font-family: 'Ubuntu';
   font-size: 75px;
   margin-bottom: 0.85%;
-  color: beige;
-  text-shadow:
-    -1px -1px 0 #666,
-    1px -1px 0 #666,
-    -1px 1px 0 #666,
-    1px 1px 0 #666;
+  color: #666;
 }
 
 #welcometext {
   font-family: 'Cardo';
   font-size: 25px;
-  color: beige;
-  text-shadow:
-    -1px -1px 0 #666,
-    1px -1px 0 #666,
-    -1px 1px 0 #666,
-    1px 1px 0 #666;
+  color: #666;
   margin: 1px;
 }
 
 #smalltext {
   font-family: 'Cardo';
   font-size: 17px;
-  color: beige;
-  text-shadow:
-    -1px -1px 0 #666,
-    1px -1px 0 #666,
-    -1px 1px 0 #666,
-    1px 1px 0 #666;
+  color: #666;
+  margin: 1px;
+}
+
+.content-div {
+  margin-top: 2.5vh;
+  cursor: default;
+}
+
+.content-div a {
+  font-family: 'Cardo';
+  font-size: 17px;
+  color: #666;
   margin: 1px;
 }
 
