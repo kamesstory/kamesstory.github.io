@@ -15,9 +15,7 @@
   "description": "Quickly view Asana tasks from the new tab page.",
 
   "icons": {
-    "16": "assets/icon16.png",
-    "48": "assets/icon48.png",
-    "128": "assets/icon128.png"
+    "512": "./assets/mountains-inside-a-circle.png"
   },
 
   "permissions": [
