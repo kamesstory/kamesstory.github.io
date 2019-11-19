@@ -29,6 +29,7 @@ html {
   left: 50vw;
   transform: translateX(-50%) translateY(-50%);
   font-size: large;
+  pointer-events: none;
 }
 
 .title-and-content {
