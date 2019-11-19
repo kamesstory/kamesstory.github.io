@@ -11,17 +11,24 @@
   color:#333333;
 }
 
-html { 
-  /* background: url("./../assets/unsplash3.jpg") no-repeat 0 -12vh fixed; */
-  background: url("./../assets/china_misty_mountain_painting-min.png") no-repeat fixed;
+html {
+  /* background: url("./../assets/china_misty_mountain_painting-min.png") no-repeat fixed;
   background-size: cover;
   background-position: right;
   height: 100%;
-  margin-top: 10%;
+  margin-top: 10%; */
 }
 
 ::-webkit-scrollbar { 
     display: none;
+}
+
+.under-construction-text{
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: large;
 }
 
 .title-and-content {
