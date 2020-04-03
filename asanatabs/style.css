@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
+@font-face {
+  font-family: 'Bauhinia_Chinese';
+  src: url('./../assets/bauhinia_font.ttf')  format('truetype');
+}
+
+* {
+  margin:0;
+  padding:0;
+  font-family: 'Cardo';
+  color:#666;
+}
+
+html {
+  max-width: 38rem;
+  padding: 2rem;
+  margin: auto;
+}
+
+.title-and-content {
+  text-align: left;
+  bottom: 18%;
+  left: 8%;
+  top: 80px;
+  margin: 80px;
+  position: fixed;
+  z-index: 999;
+  width: 800px;
+  background: rgba(255,255,255,0);
+  border-bottom: 2px black;
+  cursor: default;
+}
+
+.title-div {
+  cursor: default;
+}
+
+.title {
+  font-family: 'Ubuntu';
+  font-size: 75px;
+  margin-bottom: 0.85%;
+  color: #666;
+}
+
+.mediumtext {
+  font-family: 'Cardo';
+  font-size: 25px;
+  color: #666;
+  margin: 1px;
+}
+
+.smalltext {
+  font-family: 'Cardo';
+  font-size: 17px;
+  color: #666;
+  margin: 1px;
+}
+
+.thankstext {
+  font-family: 'Cardo';
+  font-size: 17px;
+  color: #666;
+  margin: 1px;
+  margin-top: 20px;
+}
+
+.form-box-and-content {
+  margin: 20px;
+  border: solid #666 1px;
+  border-radius: 5px;
+  padding: 25px;
+  width: 50%;
+}
+
+.form-box {
+  padding: 10px;
+}
+
+.checkbox-box {
+  padding-bottom: 5px;
+}
+
+.checkbox-label {
+  padding-left: 10px;
+  font-size: 18px;
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.submit-button {
+  margin-top: 20px;
+}
