@@ -5,39 +5,43 @@
 }
 
 * {
-  margin:0;
-  padding:0;
   font-family: 'Cardo';
   color:#666;
 }
 
-html {
-  max-width: 38rem;
-  padding: 2rem;
-  margin: auto;
+body {
+  position: relative;
 }
 
 .title-and-content {
-  text-align: left;
-  bottom: 18%;
-  left: 8%;
-  top: 80px;
-  margin: 80px;
-  position: fixed;
+  width: 1000px;
+  height: 600px;
+  padding: 20px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  margin: 100px 0 0 -520px;
+
   z-index: 999;
-  width: 800px;
+  /* width: 1000px; */
   background: rgba(255,255,255,0);
   border-bottom: 2px black;
   cursor: default;
+  display: flex;
+  flex-direction: row;
 }
 
 .title-div {
   cursor: default;
+  margin: 20px;
+  flex-grow: 5;
 }
 
 .title {
   font-family: 'Ubuntu';
-  font-size: 75px;
+  font-size: 60px;
   margin-bottom: 0.85%;
   color: #666;
 }
@@ -65,11 +69,12 @@ html {
 }
 
 .form-box-and-content {
-  margin: 20px;
   border: solid #666 1px;
   border-radius: 5px;
   padding: 25px;
-  width: 50%;
+  width: 1000px;
+  height: 480px;
+  flex-grow: 6;
 }
 
 .form-box {
