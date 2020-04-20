@@ -7,7 +7,7 @@
 * {
   margin:0;
   padding:0;
-  font-family: 'Inconsolata';
+  font-family: 'Asap', sans-serif;
 }
 
 html {
@@ -18,18 +18,31 @@ html {
   margin-top: 10%;
 }
 
+.content-container {
+  width: 72vw;
+  height: 62vh;
+  min-height: 500px;
+  margin: 0;
+  position: absolute;
+  top: 50vh;
+  -ms-transform: translateX(50%) translateY(-50%);
+  transform: translateX(50%) translateY(-50%);
+  right: 50vw;
+}
+
 .misty-mountains-container {
   margin: 0;
   position: absolute;
-  top: 48vh;
+  top: 48%;
+  height: 100%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  right: 15vw;
+  right: 0;
 }
 
 .misty-mountains-img {
-  min-width: 500px;
-  width: 35vw;
+  height: 100%;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
 }
 
 ::-webkit-scrollbar { 
@@ -38,13 +51,14 @@ html {
 
 .headers-and-content {
   text-align: left;
-  bottom: 20vh;
-  left: 15vw;
+  bottom: 5%;
+  left: 0%;
   position: fixed;
   z-index: 999;
-  border-bottom: 2px black;
   cursor: default;
   color: #F8D2BD;
+  /* -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #21262b; */
 }
 
 .headers-div {
@@ -52,21 +66,19 @@ html {
 }
 
 .name {
-  font-family: 'Ubuntu';
   font-size: 75px;
-  margin-bottom: 0.85%;
+  margin: 2px;
 }
 
 .degree {
-  font-family: 'Cardo';
   font-size: 25px;
-  margin: 1px;
+  margin: 2px;
+  margin-bottom: 7px;
 }
 
 .school {
-  font-family: 'Cardo';
-  font-size: 17px;
-  margin: 1px;
+  font-size: 20px;
+  margin: 2px;
 }
 
 .content-div {
@@ -75,7 +87,6 @@ html {
 }
 
 .content-link {
-  font-family: 'Cardo';
   font-size: 17px;
   color: #666;
   margin: 1px;
