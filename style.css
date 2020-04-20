@@ -19,8 +19,8 @@ html {
 }
 
 .content-container {
-  width: 72vw;
-  height: 62vh;
+  width: 71vw;
+  height: 60vh;
   min-height: 500px;
   margin: 0;
   position: absolute;
@@ -59,7 +59,7 @@ html {
 .headers-and-content {
   text-align: left;
   bottom: 5%;
-  left: 0%;
+  left: 3%;
   position: fixed;
   z-index: 999;
   cursor: default;
@@ -74,25 +74,25 @@ html {
 
 .chinese-name {
   font-family: "Long Cang", cursive;
-  font-size: 100px;
+  font-size: 90px;
   margin-bottom: 25px;
   writing-mode: vertical-rl;
   text-orientation: upright;
 }
 
 .name {
-  font-size: 75px;
+  font-size: 69px;
   margin: 2px;
 }
 
 .degree {
-  font-size: 25px;
+  font-size: 22px;
   margin: 2px;
   margin-bottom: 7px;
 }
 
 .school {
-  font-size: 20px;
+  font-size: 18px;
   margin: 2px;
 }
 
