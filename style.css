@@ -80,7 +80,7 @@ html {
 }
 
 .degree {
-  font-size: 22px;
+  font-size: 18px;
   margin: 2px;
   margin-bottom: 7px;
 }
@@ -91,14 +91,12 @@ html {
 }
 
 .content-div {
-  margin-top: 2.5vh;
+  margin-top: 3%;
   cursor: default;
 }
 
-.content-link {
-  font-size: 17px;
-  color: #666;
-  margin: 1px;
+.icon-image {
+  width: 25px;
 }
 
 /* -------------- ANIMATIONS -------------- */
