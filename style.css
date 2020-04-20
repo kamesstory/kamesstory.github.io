@@ -30,7 +30,7 @@ html {
   right: 50vw;
 }
 
-.misty-mountains-container {
+.mountains-img-container {
   margin: 0;
   position: absolute;
   top: 48%;
@@ -40,7 +40,14 @@ html {
   right: 0;
 }
 
-.misty-mountains-img {
+.image-link {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+}
+
+.mountains-img {
+  user-select: none;
   height: 100%;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
 }
@@ -63,6 +70,14 @@ html {
 
 .headers-div {
   cursor: default;
+}
+
+.chinese-name {
+  font-family: "Long Cang", cursive;
+  font-size: 100px;
+  margin-bottom: 25px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
 }
 
 .name {
