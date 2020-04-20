@@ -1,9 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
-@font-face {
-  font-family: 'Bauhinia_Chinese';
-  src: url('./../assets/bauhinia_font.ttf')  format('truetype');
-}
-
 * {
   font-family: 'Cardo';
   color:#666;
