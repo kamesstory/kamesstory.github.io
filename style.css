@@ -8,7 +8,6 @@
   margin:0;
   padding:0;
   font-family: 'Inconsolata';
-  color:#333333;
 }
 
 html {
@@ -22,14 +21,15 @@ html {
 .misty-mountains-container {
   margin: 0;
   position: absolute;
-  top: 55vh;
+  top: 48vh;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  right: 0%;
+  right: 15vw;
 }
 
 .misty-mountains-img {
-  width: 75vw;
+  min-width: 500px;
+  width: 35vw;
 }
 
 ::-webkit-scrollbar { 
@@ -38,14 +38,13 @@ html {
 
 .headers-and-content {
   text-align: left;
-  bottom: 18%;
-  left: 8%;
+  bottom: 20vh;
+  left: 15vw;
   position: fixed;
   z-index: 999;
-  width: 50%;
-  background: rgba(255,255,255,0);
   border-bottom: 2px black;
   cursor: default;
+  color: #F8D2BD;
 }
 
 .headers-div {
@@ -56,20 +55,17 @@ html {
   font-family: 'Ubuntu';
   font-size: 75px;
   margin-bottom: 0.85%;
-  color: #666;
 }
 
 .degree {
   font-family: 'Cardo';
   font-size: 25px;
-  color: #666;
   margin: 1px;
 }
 
 .school {
   font-family: 'Cardo';
   font-size: 17px;
-  color: #666;
   margin: 1px;
 }
 
