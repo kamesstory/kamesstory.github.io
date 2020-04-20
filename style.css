@@ -12,27 +12,31 @@
 }
 
 html {
-  /* background: url("./../assets/china_misty_mountain_painting-min.png") no-repeat fixed;
+  background: #21262b no-repeat fixed;
   background-size: cover;
   background-position: right;
   height: 100%;
-  margin-top: 10%; */
+  margin-top: 10%;
+}
+
+.misty-mountains-container {
+  margin: 0;
+  position: absolute;
+  top: 55vh;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 0%;
+}
+
+.misty-mountains-img {
+  width: 75vw;
 }
 
 ::-webkit-scrollbar { 
     display: none;
 }
 
-.under-construction-text{
-  position: absolute;
-  top: 50vh;
-  left: 50vw;
-  transform: translateX(-50%) translateY(-50%);
-  font-size: large;
-  pointer-events: none;
-}
-
-.title-and-content {
+.headers-and-content {
   text-align: left;
   bottom: 18%;
   left: 8%;
@@ -44,25 +48,25 @@ html {
   cursor: default;
 }
 
-.title-div {
+.headers-div {
   cursor: default;
 }
 
-.title {
+.name {
   font-family: 'Ubuntu';
   font-size: 75px;
   margin-bottom: 0.85%;
   color: #666;
 }
 
-#welcometext {
+.degree {
   font-family: 'Cardo';
   font-size: 25px;
   color: #666;
   margin: 1px;
 }
 
-#smalltext {
+.school {
   font-family: 'Cardo';
   font-size: 17px;
   color: #666;
@@ -74,32 +78,11 @@ html {
   cursor: default;
 }
 
-.content-div a {
+.content-link {
   font-family: 'Cardo';
   font-size: 17px;
   color: #666;
   margin: 1px;
-}
-
-.chinese_font_div {
-  position: fixed;
-  top: 23.5%;
-  left: 54.75%;
-  cursor: default;
-}
-
-.chinese_font span {
-  writing-mode: vertical-lr;
-  -webkit-writing-mode: vertical-lr;
-  -ms-writing-mode: vertical-lr;
-  color: beige;
-  text-shadow:
-    -1px -1px 0 #666,
-    1px -1px 0 #666,
-    -1px 1px 0 #666,
-    1px 1px 0 #666;
-  font-size: 110px;
-  font-family: 'Bauhinia_Chinese';
 }
 
 /* -------------- ANIMATIONS -------------- */
