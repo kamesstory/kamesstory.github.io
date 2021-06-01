@@ -1,24 +1,26 @@
 :root {
   --text: #3a3d5b;
-  --highlight: #3c7e99;
+  --highlight: #98b4ca;
 }
 
 * {
   font-family: "Asap", sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
+html,
 body {
-  height: 100vh;
-  width: 100vw;
+  width: 100%;
+  height: 100%;
 }
 
 .content-container {
-  width: 100%;
   height: 100%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 20px;
 }
 
 ::-webkit-scrollbar {
@@ -32,6 +34,7 @@ body {
   flex-direction: column;
   text-align: left;
   z-index: 999;
+  padding: 20px;
   cursor: default;
   color: var(--text);
 }
@@ -48,7 +51,8 @@ body {
 .headshot {
   max-width: 600px;
   width: 100%;
-  border: #fff solid 2px;
+  border: var(--highlight) solid 2px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
   transition: border 0.15s ease-in;
 }
 
