@@ -1,36 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title id='tabtitle'>Jason Wang | Home</title>
-    <link rel='shortcut icon' href='./assets/favicon.ico'>
-    <link href="https://fonts.googleapis.com/css2?family=Asap&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Long+Cang&display=swap" rel="stylesheet">
-    <link rel='stylesheet' href='style.css'>
-    <script type="text/javascript" src='main.js'></script>
+    <title id="tabtitle">Jason Wang | Home</title>
+    <link rel="shortcut icon" href="./assets/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="main.js"></script>
   </head>
   <body>
     <div class="content-container">
-      <div class="mountains-img-container">
-        <a class="image-link" href="https://www.vecteezy.com/free-vector/mountain">
-          <img class="mountains-img" src="./assets/mountain_sunset_empty.jpg">
-        </a>
-      </div>
-      <!-- TODO: include cool animation switching between english and chinese names -->
-      <div class='headers-and-content'>
-        <div class='headers-div'>
-          <h3 class="chinese-name">王浩峰</h3>
-          <h3 class="name"> Jason Wang </h3>
-          <h3 class="degree"> Computer Science & PPE </h3>
-          <h3 class="school"> Duke University </h3>
+      <div class="headers-and-content">
+        <div class="headshot-container">
+          <img class="headshot" src="./assets/headshot.jpg" />
         </div>
-        <div class='content-div'>
-          <a href="mailto:jhw513+website@gmail.com">
-            <img class="icon-image" src="./assets/gmail.png"></a>
-          <a href="https://github.com/kamesstory">
-            <img class="icon-image" src="./assets/github.png"></a>
-          <a href="https://www.linkedin.com/in/jason-hf-wang/">
-            <img class="icon-image" src="./assets/linkedin.png"></a>
+        <div class="greeting">Hi, I'm Jason.</div>
+        <div class="body">
+          I'm currently on a break, checking out cool new ideas and startups.
+          Previously, I cofounded
+          <span class="link" onclick="onCohereLinkClick()">Cohere</span>, and
+          have been at Facebook, Siemens, and Farmers Business Network. You can
+          learn more about me
+          <span class="link" onclick="onLinkedinLinkClick()">here</span>.
         </div>
       </div>
     </div>

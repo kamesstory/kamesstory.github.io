@@ -2,14 +2,7 @@
  *              Main javascript file for website
  * --------------------------------------------------------------- */
 
-const loadImageOnMouseOver = () => {
-  const imageContainer = document.getElementsByClassName("mountains-img-container")[0];
-  imageContainer.onmouseover = () => {
-    
-  }
-}
+const onCohereLinkClick = () => window.open("https://cohere.so");
 
-document.addEventListener("DOMContentLoaded", function(){
-  // Handler when the DOM is fully loaded
-  loadImageOnMouseOver();
-});
+const onLinkedinLinkClick = () =>
+  window.open("https://linkedin.com/in/jason-hf-wang");
