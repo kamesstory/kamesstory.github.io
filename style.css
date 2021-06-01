@@ -64,6 +64,7 @@ body {
 .body {
   font-size: 19px;
   line-height: 25px;
+  margin-bottom: 10px;
 }
 
 .link {
