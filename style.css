@@ -16,8 +16,8 @@ body {
 }
 
 .content-container {
-  height: 100%;
-  width: 100%;
+  min-height: 100%;
+  min-width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,7 +32,6 @@ body {
   display: flex;
   flex-direction: column;
   text-align: left;
-  z-index: 999;
   padding: 20px;
   cursor: default;
   color: var(--text);
