@@ -61,12 +61,12 @@ body {
 }
 
 .greeting {
-  font-size: 40px;
+  font-size: 2.5rem;
   margin-bottom: 10px;
 }
 
 .body {
-  font-size: 19px;
+  font-size: 1.25rem;
   line-height: 25px;
   margin-bottom: 10px;
 }
