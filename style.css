@@ -51,13 +51,13 @@ body {
 .headshot {
   max-width: 600px;
   width: 100%;
-  border: var(--highlight) solid 2px;
+  border: var(--text) solid 2px;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
   transition: border 0.15s ease-in;
 }
 
 .headshot:hover {
-  border: var(--text) solid 2px;
+  border: var(--highlight) solid 2px;
 }
 
 .greeting {
