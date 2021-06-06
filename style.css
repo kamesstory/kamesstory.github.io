@@ -53,11 +53,13 @@ body {
   box-sizing: border-box;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
   transition: 0.1s ease-in;
+  /* filter: grayscale(100%); */
+  cursor: pointer;
 }
 
 .headshot:hover {
-  /* box-shadow: 0px 10px 18px rgba(0, 0, 0, 0.1); */
-  transform: scale(1.01);
+  transform: scale(1.005);
+  /* filter: grayscale(0%); */
 }
 
 .greeting {
