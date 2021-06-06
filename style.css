@@ -52,7 +52,7 @@ body {
   border: var(--text) solid 2px;
   box-sizing: border-box;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
-  transition: all 0.1s ease-in;
+  transition: 0.1s ease-in;
 }
 
 .headshot:hover {
