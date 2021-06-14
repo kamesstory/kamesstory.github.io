@@ -21,3 +21,17 @@ const onLinkedinLinkClick = () =>
 const onGithubLinkClick = () => window.open("https://github.com/kamesstory");
 
 const onEmailLinkClick = () => window.open("mailto:jhw513@gmail.com");
+
+const linkElements = document.querySelectorAll(".link");
+const overlayElement = document.querySelector(".overlay-blur");
+
+linkElements.forEach((e) => {
+  e.addEventListener("mouseenter", () => {
+    e.classList.add("focused-above-overlay");
+    console.log(`adding focused above overlay`);
+  });
+  e.addEventListener("mouseleave", () => {
+    e.classList.remove("focused-above-overlay");
+    console.log(`removing focused above overlay`);
+  });
+});

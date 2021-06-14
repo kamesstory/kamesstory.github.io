@@ -20,6 +20,7 @@ body {
   height: 100%;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.1);
+  pointer-events: none;
 }
 
 .content-container {
@@ -56,17 +57,13 @@ body {
 .headshot {
   max-width: 600px;
   width: 100%;
-  /* border: var(--text) solid 2px; */
-  /* box-sizing: border-box; */
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
   transition: 0.1s ease-in;
-  /* filter: grayscale(100%); */
   cursor: pointer;
 }
 
 .headshot:hover {
   transform: scale(1.005);
-  /* filter: grayscale(0%); */
 }
 
 .greeting {
