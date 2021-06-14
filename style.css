@@ -16,6 +16,7 @@ body {
 }
 
 .overlay-blur {
+  z-index: 9999;
   position: fixed;
   height: 100%;
   width: 100%;
