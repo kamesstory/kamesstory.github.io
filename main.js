@@ -28,10 +28,10 @@ const overlayElement = document.querySelector(".overlay-blur");
 linkElements.forEach((e) => {
   e.addEventListener("mouseenter", () => {
     e.classList.add("focused-above-overlay");
-    console.log(`adding focused above overlay`);
+    // console.log(`adding focused above overlay`);
   });
   e.addEventListener("mouseleave", () => {
     e.classList.remove("focused-above-overlay");
-    console.log(`removing focused above overlay`);
+    // console.log(`removing focused above overlay`);
   });
 });
