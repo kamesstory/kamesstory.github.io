@@ -1,6 +1,7 @@
 :root {
   --text: #3a3d5b;
-  --highlight: #90a5c4;
+  --highlight: #5673a7;
+  --link: #90a5c4;
 }
 
 * {
@@ -91,6 +92,7 @@ body {
 .link {
   cursor: pointer;
   transition: color 0.08s linear;
+  color: var(--link);
 }
 
 .link:hover {
