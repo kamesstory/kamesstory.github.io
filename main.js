@@ -2,6 +2,8 @@
  *              Main javascript file for website
  * --------------------------------------------------------------- */
 
+const onCensusLinkClick = () => window.open("https://getcensus.com");
+
 const onCohereLinkClick = () => window.open("https://cohere.so");
 
 const onFacebookLinkClick = () =>
