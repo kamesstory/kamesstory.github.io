@@ -56,7 +56,6 @@ body {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  flex: 2;
 
   user-select: none;
 
@@ -76,45 +75,15 @@ body {
 }
 
 .content-container {
-  flex: 3;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
 
   max-width: 600px;
+  width: 600px;
+  height: 100%;
 
   padding-top: 50px;
   margin: 20px;
-}
-
-.greeting {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
-}
-
-.body {
-  font-size: 1.25rem;
-  line-height: 25px;
-  margin-bottom: 10px;
-}
-
-@media only screen and (max-width: 600px) {
-  .greeting {
-    font-size: 2rem;
-  }
-
-  .body {
-    font-size: 1rem;
-  }
-}
-
-.link {
-  cursor: pointer;
-  transition: color 0.08s linear;
-  color: var(--link);
-}
-
-.link:hover {
-  color: var(--highlight);
 }

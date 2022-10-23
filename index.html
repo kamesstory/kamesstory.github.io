@@ -3,7 +3,8 @@
   <head>
     <title id="tabtitle">Jason Wang | Home</title>
     <link rel="shortcut icon" href="./assets/favicon.ico" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="universal-style.css" />
+    <link rel="stylesheet" href="landing.css" />
     <link rel="preload" href="./assets/headshot.jpg" as="image" />
     <meta name="viewport" content="width=device-width" />
   </head>
@@ -13,8 +14,8 @@
         <img class="headshot" src="./assets/headshot.jpg" />
       </div>
       <div class="content-container">
-        <div class="greeting">Hi, I'm Jason.</div>
-        <div class="body">
+        <div class="content-greeting">Hi, I'm Jason.</div>
+        <div class="content-body">
           I'm currently a software engineer at
           <span class="link" onclick="onCensusLinkClick()">Census</span>,
           helping teams use data in their day-to-day operations. Previously, I
@@ -28,12 +29,18 @@
             >Farmers Business Network</span
           >.
         </div>
-        <div class="body">
+        <div class="content-body" style="margin-bottom: 50px">
           You can find me on
           <span class="link" onclick="onGithubLinkClick()">Github</span>,
           <span class="link" onclick="onLinkedinLinkClick()">LinkedIn</span>, or
           through my
           <span class="link" onclick="onEmailLinkClick()">email</span>.
+        </div>
+        <div class="link-container">
+          <li style="margin-bottom: 20px">
+            <a href="thoughstream">thoughtstream</a>
+          </li>
+          <li><a href="feuilleton">feuil·le·ton</a></li>
         </div>
       </div>
     </div>
