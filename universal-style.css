@@ -24,24 +24,9 @@ body {
   justify-content: center;
 }
 
-.overlay-blur {
-  z-index: 9999;
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.1);
-  pointer-events: none;
-}
-
 ::-webkit-scrollbar {
   display: none;
 }
-
-/* @media screen and (min-width: 800px) {
-  .container {
-    margin: 1em 2em;
-  }
-} */
 
 .headers-and-content {
   display: flex;
