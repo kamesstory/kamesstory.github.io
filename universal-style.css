@@ -38,6 +38,9 @@ body {
 @media screen and (max-width: 850px) {
   .headers-and-content {
     flex-direction: column;
+
+    align-items: flex-start;
+    justify-content: flex-start;
   }
 }
 
@@ -52,7 +55,11 @@ body {
 
 @media screen and (max-width: 850px) {
   .headshot-container {
-    border-bottom: 1px solid black;
+    width: 100vw;
+    border-bottom: 1px solid var(--text);
+
+    align-items: start;
+    justify-content: start;
   }
 }
 
@@ -73,8 +80,8 @@ body {
 
 @media screen and (max-width: 850px) {
   .headshot {
-    max-height: 10vh;
-    max-width: 10vw;
+    max-height: 48px;
+    max-width: 48px;
   }
 }
 
@@ -92,7 +99,7 @@ body {
 
 @media screen and (max-width: 850px) {
   .content-container {
-    padding-top: auto;
+    margin-top: 80px;
     width: auto;
   }
 }
