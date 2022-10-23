@@ -45,10 +45,16 @@ body {
 
 .headers-and-content {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   text-align: left;
   cursor: default;
   color: var(--text);
+}
+
+@media screen and (min-width: 850px) {
+  .headers-and-content {
+    flex-direction: row;
+  }
 }
 
 .headshot-container {
