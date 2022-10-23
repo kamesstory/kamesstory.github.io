@@ -60,7 +60,7 @@ body {
 
   user-select: none;
 
-  margin: 50px;
+  margin: 20px;
 }
 
 .headshot {
@@ -85,7 +85,7 @@ body {
   max-width: 600px;
 
   padding-top: 50px;
-  margin: 50px;
+  margin: 20px;
 }
 
 .greeting {
