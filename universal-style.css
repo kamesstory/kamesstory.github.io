@@ -112,11 +112,13 @@ body {
 
   padding: 20px;
   box-sizing: border-box;
-
-  padding-bottom: 80px;
 }
 
 @media screen and (max-width: 850px) {
+  .content-container {
+    padding-bottom: 80px;
+  }
+
   .confetti,
   .feuilleton > .content-container {
     margin-top: 80px;
