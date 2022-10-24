@@ -20,6 +20,16 @@
   align-items: start;
 }
 
+.link {
+  cursor: pointer;
+  /* transition: color 0.08s linear; */
+  color: var(--link);
+}
+
+.link:hover {
+  color: var(--highlight);
+}
+
 @media only screen and (max-width: 850px) {
   .content-greeting {
     font-size: 2rem;
