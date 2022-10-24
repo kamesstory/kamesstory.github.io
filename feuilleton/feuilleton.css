@@ -1,6 +1,13 @@
+.content-container {
+  overflow-y: scroll;
+  max-height: 100%;
+  padding-bottom: 100px;
+}
+
 .content-greeting {
   font-size: 2.5rem;
   margin-bottom: 20px;
+  margin-top: calc(50vh - 250px);
 }
 
 .content-body {
