@@ -1,0 +1,23 @@
+.content-container {
+  overflow-y: scroll;
+  height: 100%;
+  padding-bottom: 100px;
+}
+
+.confetti-greeting {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  margin-top: calc(50vh - 250px);
+}
+
+.confetti-description {
+  font-size: 1rem;
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+
+li {
+  font-size: 0.9rem;
+  line-height: 25px;
+  margin-bottom: 15px;
+}

@@ -11,10 +11,22 @@
   <body>
     <div class="headers-and-content confetti">
       <div class="headshot-container">
-        <img class="headshot" src="../assets/headshot.jpg" />
+        <img
+          class="headshot"
+          src="../assets/headshot.jpg"
+          onclick="onHeadshotClick()"
+        />
       </div>
-      <div class="content-container">WIP</div>
+      <div class="content-container">
+        <p class="confetti-greeting">confetti 🎉</p>
+        <p class="confetti-description" style="margin-bottom: 50px">
+          a space for a little bit of confetti — those random, idle thoughts
+          that litter my headspace
+        </p>
+        <div class="confetti-container"></div>
+      </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script type="text/javascript" src="main.js"></script>
   </body>
 </html>
