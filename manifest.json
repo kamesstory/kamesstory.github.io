@@ -1,7 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "Jason Wang | Home",
-  "version": "1.3",
+  "name": "jasonwa.ng | home",
 
   "content_security_policy": "script-src 'self'; object-src 'self'",
   "description": "Personal Website for Jason Wang",
