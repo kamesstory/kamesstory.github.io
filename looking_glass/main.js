@@ -15,8 +15,8 @@ const contents = `
 
 const parsedFile = marked.parse(contents);
 
-const confettiContainer = document.querySelector(".confetti-container");
+const lookingGlassContainer = document.querySelector(
+  ".looking-glass-container"
+);
 
-console.log(`Confetti container:`, confettiContainer);
-
-confettiContainer.innerHTML = parsedFile;
+lookingGlassContainer.innerHTML = parsedFile;

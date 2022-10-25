@@ -41,7 +41,7 @@ body {
     justify-content: flex-start;
   }
 
-  .confetti,
+  .looking-glass,
   .feuilleton > .headers-and-content {
     align-items: flex-start;
     justify-content: flex-start;
@@ -65,7 +65,7 @@ body {
     width: 100%;
   }
 
-  .confetti,
+  .looking-glass,
   .feuilleton > .headshot-container {
     width: 100%;
     border-bottom: 1px solid var(--text);
@@ -94,7 +94,7 @@ body {
     max-width: 100%;
   }
 
-  .confetti,
+  .looking-glass,
   .feuilleton > .headshot-container > .headshot {
     max-height: 48px;
     max-width: 48px;
@@ -119,7 +119,7 @@ body {
     padding-bottom: 80px;
   }
 
-  .confetti,
+  .looking-glass,
   .feuilleton > .content-container {
     width: auto;
   }
