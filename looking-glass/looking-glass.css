@@ -23,12 +23,8 @@ li {
 }
 
 @media only screen and (max-width: 850px) {
-  .content-greeting {
+  .looking-glass-greeting {
     font-size: 2rem;
     margin-top: auto;
-  }
-
-  .content-body {
-    font-size: 1rem;
   }
 }
