@@ -29,6 +29,6 @@ li {
 @media only screen and (max-width: 850px) {
   .looking-glass-greeting {
     font-size: 2rem;
-    margin-top: auto;
+    margin-top: 0;
   }
 }
