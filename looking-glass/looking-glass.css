@@ -16,10 +16,14 @@
   margin-bottom: 15px;
 }
 
+ul {
+  padding-left: 16px;
+}
+
 li {
-  font-size: 0.9rem;
   line-height: 25px;
-  margin-bottom: 15px;
+  margin: 15px 0;
+  font-size: 0.9rem;
 }
 
 @media only screen and (max-width: 850px) {
