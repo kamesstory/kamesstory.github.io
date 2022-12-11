@@ -124,3 +124,25 @@ body {
     width: auto;
   }
 }
+
+.link {
+  display: inline;
+  cursor: pointer;
+  transition: all 0.03s linear;
+  color: var(--link);
+}
+
+.link:hover {
+  color: var(--highlight);
+}
+
+.underlined {
+  padding: 0 1px;
+  border-bottom: 2px solid var(--link);
+  transition: all 0.03s linear;
+  text-decoration: none;
+}
+
+.underlined:hover {
+  border-bottom: 2px solid var(--highlight);
+}
