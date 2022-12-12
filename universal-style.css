@@ -2,6 +2,16 @@
   --text: #3a3d5b;
   --highlight: #5673a7;
   --link: #90a5c4;
+  --background: white;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #e4e7eb;
+    --highlight: #c4dafd;
+    --link: #aec6ea;
+    --background: #11161d;
+  }
 }
 
 * {
@@ -12,21 +22,9 @@
 
 html,
 body {
+  background-color: var(--background);
   width: 100vw;
   height: 100vh;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text: #e4e7eb;
-    --highlight: #c4dafd;
-    --link: #aec6ea;
-  }
-
-  html,
-  body {
-    background: #1d242b;
-  }
 }
 
 ::-webkit-scrollbar {
