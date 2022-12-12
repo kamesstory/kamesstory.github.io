@@ -16,6 +16,19 @@ body {
   height: 100vh;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #e4e7eb;
+    --highlight: #c4dafd;
+    --link: #aec6ea;
+  }
+
+  html,
+  body {
+    background: #1d242b;
+  }
+}
+
 ::-webkit-scrollbar {
   display: none;
 }
