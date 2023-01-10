@@ -4,13 +4,13 @@
   padding-bottom: 100px;
 }
 
-.looking-glass-greeting {
+.stream-greeting {
   font-size: 2.5rem;
   margin-bottom: 20px;
   margin-top: calc(50vh - 250px);
 }
 
-.looking-glass-description {
+.stream-description {
   font-size: 1rem;
   line-height: 25px;
   margin-bottom: 15px;
@@ -27,7 +27,7 @@ li {
 }
 
 @media only screen and (max-width: 850px) {
-  .looking-glass-greeting {
+  .stream-greeting {
     font-size: 2rem;
     margin-top: 0;
   }

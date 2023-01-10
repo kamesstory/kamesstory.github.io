@@ -2,7 +2,7 @@ const onHeadshotClick = () => {
   window.location.href = `https://jasonwa.ng`;
 };
 
-fetch("https://jasonwa.ng/looking-glass/thoughts.md")
+fetch("https://jasonwa.ng/stream/thoughts.md")
   .then((response) => response.text())
   .then((text) => {
     const parsed = marked.parse(text);
@@ -11,9 +11,7 @@ fetch("https://jasonwa.ng/looking-glass/thoughts.md")
       `<a class="link underlined"`
     );
 
-    const lookingGlassContainer = document.querySelector(
-      ".looking-glass-container"
-    );
+    const lookingGlassContainer = document.querySelector(".stream-container");
 
     lookingGlassContainer.innerHTML = parsedWithClasses;
   });
