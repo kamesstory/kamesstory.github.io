@@ -146,24 +146,20 @@ body {
   }
 }
 
-.link {
+a {
   display: inline;
   cursor: pointer;
-  transition: all 0.03s linear;
+
   color: var(--link);
-}
+  text-decoration: none;
 
-.link:hover {
-  color: var(--highlight);
-}
-
-.underlined {
   padding: 0 1px;
   border-bottom: var(--underline-width) solid var(--link);
+
   transition: all 0.03s linear;
-  text-decoration: none;
 }
 
-.underlined:hover {
+a:hover {
+  color: var(--highlight);
   border-bottom: 2px solid var(--highlight);
 }
