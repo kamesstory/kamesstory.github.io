@@ -14,7 +14,7 @@ const onSiemensLinkClick = () =>
   window.open("https://www.plm.automation.siemens.com/");
 const onFBNLinkClick = () =>
   window.open(
-    "https://www.bloomberg.com/news/articles/2020-08-03/farmers-business-network-raises-funds-at-1-75-billion-valuation"
+    "https://www.bloomberg.com/news/articles/2021-11-18/farming-software-maker-said-to-be-valued-at-4-billion-in-round"
   );
 
 const onLinkedinLinkClick = () =>
