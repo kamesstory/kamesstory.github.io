@@ -16,14 +16,16 @@
   margin-bottom: 15px;
 }
 
-ul {
-  padding-left: 16px;
-}
-
 li {
   line-height: 25px;
   margin: 15px 0;
   font-size: 0.9rem;
+
+  padding: 1rem;
+  background: rgb(49, 53, 86);
+  border-radius: 0.5rem;
+
+  list-style: none;
 }
 
 @media only screen and (max-width: 850px) {
