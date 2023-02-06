@@ -7,7 +7,7 @@
   --underline-width: 2px;
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   :root {
     --text: #e4e7eb;
     --highlight: #c4dafd;
@@ -15,7 +15,7 @@
     --box-color: #313556;
     --background: rgb(33, 33, 48);
   }
-} */
+}
 
 @media screen and (max-width: 850px) {
   :root {
