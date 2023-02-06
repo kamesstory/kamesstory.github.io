@@ -22,7 +22,7 @@ li {
   font-size: 0.9rem;
 
   padding: 1rem;
-  background: rgb(49, 53, 86);
+  background: var(--box-color);
   border-radius: 0.5rem;
 
   list-style: none;
