@@ -12,7 +12,7 @@
 
 - Subconscious
 
-  - There's a huge distinction between working with / trusting / relying upon your subconscious patterns of thought, and being driven by your feelings. The former generates insights derived from accumulated subconscious / minute details, which are distinct from what your logical brain notices and therefore can be hugely valuable. It also incidentally requires very little active attention, which is great since effort expended is always a constant O(1). However, because these patterns are driven by emotional / instinctive machinery that might not apply to a given situation, understanding how your subconscious works and where it is designed to be effective is critical to applying its insights effectively. That's why the latter (being entirely driven by feelings) is bad — you divorce your decision entirely from logic.
+  - I've always been really happy with how much I understand and rely on my instincts and subconscious. To me, there's a huge difference between working with / trusting / relying upon your subconscious patterns of thought, and being driven by your feelings. The former involves using millennia of honed machinery to get insights derived from accumulated minute subconscious details, which are distinct from what your logical brain can notice and are really valuable. It also runs on its own, which is great since it doesnt require much effort. However, because these patterns are driven by emotional / instinctive machinery that might not apply to a given situation, understanding how your subconscious works and where it is designed to be effective is critical to applying its insights effectively. That's why the latter (being entirely driven by feelings) is bad — you divorce your decision entirely from logic.
 
 - Evil in art
 
