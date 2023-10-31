@@ -2,6 +2,16 @@
  *              Main javascript file for website
  * --------------------------------------------------------------- */
 
+const onStealthLinkClick = () =>
+  window.open(
+    "https://healthcare-co.notion.site/Healthcare-Reimagined-Build-w-Us-12d9d885ae3b4663a80be0a35e4a7116"
+  );
+
+const onRampAcquisitionLinkClick = () =>
+  window.open(
+    "https://techcrunch.com/2023/06/26/as-the-generative-ai-craze-rages-on-fintech-ramp-acquires-ai-powered-customer-support-startup-cohere-io/"
+  );
+
 const onCensusLinkClick = () => window.open("https://getcensus.com");
 
 const onCohereLinkClick = () => window.open("https://cohere.so");
