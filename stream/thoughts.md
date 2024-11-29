@@ -4,7 +4,7 @@
 
   1. Accent good physical qualities, and hide bad ones.
   2. Avoid being trendy for the sake of trendiness.
-  3. Capture who you are (crucially, core parts of personality that aren't just phases of life)
+  3. Capture who you are (crucially, core parts of personality that aren't just phases of life), or convey impressions that you want to convey.
 
   - The best clothes, in my eyes, must excel in at least 2 of the above principles and do decently in the remaining condition. My goal is to find more of these pieces and build more trendy items on top of that collection.
 
