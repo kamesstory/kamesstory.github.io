@@ -39,6 +39,14 @@ ul > li > ul > li {
   font-weight: 400;
 }
 
+ul > li > ul > li > ol {
+  margin-left: 1rem;
+}
+
+ul > li > ul > li > ul {
+  margin-left: 1rem;
+}
+
 ul > li > ul > li:last-child {
   margin-bottom: 0.5rem;
 }
