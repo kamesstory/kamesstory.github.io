@@ -2,9 +2,9 @@
 
   - What even is the concept of timeless fashion? This was a trend in the past, where people wanted to focus only on high-quality basics and timeless pieces, and for a while I thought that for me it could be the end of fashion. I've only since realized that this is missing an absolutely critical aspect — self-expression, which I'm sure is obvious to actual fashion enthusiasts. To me, to be timeless is not to stick just with whatever has withstood the test of time, but also to find some core kernel of yourself that you can express through clothing. If you find that kernel and can match it with dress, then it's also timeless, _for you_. Here's some qualities that "forever clothes" should have in my eyes:
 
-  - 1. Accent good physical qualities, and hide bad ones.
-  - 2. Avoid being trendy for the sake of trendiness.
-  - 3. Capture who you are (crucially, core parts of personality that aren't just phases of life), or convey impressions that you want to convey.
+    1. Accent good physical qualities, and hide bad ones.
+    2. Avoid being trendy for the sake of trendiness.
+    3. Capture who you are (crucially, core parts of personality that aren't just phases of life), or convey impressions that you want to convey.
 
   - The best clothes, in my eyes, must excel in at least 2 of the above principles and do decently in the remaining condition. My goal is to find more of these pieces and build more trendy items on top of that collection.
 
