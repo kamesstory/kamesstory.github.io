@@ -1,13 +1,3 @@
-- forever clothing
-
-  - What does timeless fashion even mean? This was something I really focused on in the past, where people wanted to focus only on high-quality basics and timeless pieces, and for a while I thought that for me it was some sort of final solution for clothing. I've only since realized that this is missing an absolutely critical aspect — self-expression, which I'm sure is obvious to actual fashion enthusiasts. To me, to be timeless is not to stick just with whatever has withstood the test of time, but also to find some core kernel of yourself that you can express through clothing. If you find that kernel and can match it with dress, then it's also timeless, _for you_. Here's some qualities that "forever clothes" should have in my eyes:
-
-  - 1. Accent good physical qualities, and hide bad ones.
-    2. Avoid being trendy for the sake of trendiness.
-    3. Capture who you are (crucially, core parts of personality that aren't just phases of life), or convey impressions that you want to convey.
-
-  - The best clothes, in my eyes, must excel in at least 2 of the above principles and do decently in the remaining condition. My goal is to find more of these pieces and build more trendy items on top of that collection.
-
 - china
 
   - The last time I went to China before this past trip was 2016, about 8 years ago. At that point, I was still young, so I never picked up on the subtleties and interesting dynamics of Chinese society. The most striking one I observed this past trip was that China is a lesson in contrast. China is not a tokenizable experience, nor is it a homogenous one. Things that should be in opposition do in fact exist hand in hand, which makes for a complex and interesting society. Here are some anecdotes:
@@ -22,6 +12,16 @@
 - the suitcase index
 
   - I was just in China and was struck by the experience of just being able to roll my suitcase from my house in one city to the hotel in another, without it really ever leaving my hands. In the US, this is totally a foreign idea, as suitcases leave our hands almost at every junction. The car ride from the house to the airport, the security checkpoints, the carry on overhead bins, the car ride in the last mile, etc. China was different because public transportation and high-speed rail makes it so easy to just roll it continuously to the endpoint. I call this in my head the suitcase index, indicating the percentage of time that a suitcase can be in your hands or easily accessible, which is a proxy for the quality and dominance of the public infrastructure.
+
+- forever clothing
+
+  - What does timeless fashion even mean? This was something I really focused on in the past, where people wanted to focus only on high-quality basics and timeless pieces, and for a while I thought that for me it was some sort of final solution for clothing. I've only since realized that this is missing an absolutely critical aspect — self-expression, which I'm sure is obvious to actual fashion enthusiasts. To me, to be timeless is not to stick just with whatever has withstood the test of time, but also to find some core kernel of yourself that you can express through clothing. If you find that kernel and can match it with dress, then it's also timeless, _for you_. Here's some qualities that "forever clothes" should have in my eyes:
+
+  - 1. Accent good physical qualities, and hide bad ones.
+    2. Avoid being trendy for the sake of trendiness.
+    3. Capture who you are (crucially, core parts of personality that aren't just phases of life), or convey impressions that you want to convey.
+
+  - The best clothes, in my eyes, must excel in at least 2 of the above principles and do decently in the remaining condition. My goal is to find more of these pieces and build more trendy items on top of that collection.
 
 - mindful indulgence
 
