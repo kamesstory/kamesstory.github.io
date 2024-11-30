@@ -37,6 +37,8 @@ ul > li > ul {
 ul > li > ul > li {
   padding: 0;
   font-weight: 400;
+
+  background-color: transparent;
 }
 
 ul > li > ul > li > ol {
