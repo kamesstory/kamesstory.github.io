@@ -1,6 +1,6 @@
 - china
 
-  - The last time I went to China before this past trip was 2016, about 8 years ago. At that point, I was still young, so I never picked up on the subtleties and interesting dynamics of Chinese society. The most striking one I observed this past trip was that China is a lesson in contrast. China is not a tokenizable experience, nor is it a homogenous one. Things that should be in opposition do in fact exist hand in hand, which makes for a complex and interesting society. Here are some anecdotes:
+  - The last time I went to China before this past trip was 2016, about 8 years ago. At that point, I was still young, so I never picked up on the subtleties and interesting dynamics of Chinese society. The most striking one I observed this past trip was that China is a lesson in contrast. China is not a tokenizable experience, nor is it a homogenous one. Things that should be in opposition do in fact thrive hand-in-hand, which makes for a complex and interesting society. Here are some anecdotes:
 
   - 1. Older generation vs. younger generation. Many of the older generation grew up in pre-market economics society (e.g. cultural revolution times), and are heavily influenced by their experiences there. They're the boats that have risen with the tide. I've literally overheard (normal) folks saying that now they're retired, they have too much money that they can't invest and just need to spend it on luxury goods or expensive foreign travel. There's also a hyper-rich new generation, the heirs to tycoon fortunes, who look down on the old guard and normal society and desperately pretend to be greater than Chinese, traveling and studying in places like France and the UK. Then there's the ordinary younger generation, which is stuck under the burden of 9-9-6 and the impossibility of achieving the same level of success as their parents. They don't even and can't even travel much, to the degree that fellow travelers thought I was weird for being able to go out on a vacation within China "out-of-season".
     2. Old tradition vs. the new China. Everywhere you look, there's an interplay between old buildings and constructions, and the glittering new skyscrapers and neon lights. Aesthetically, one of the most amazing things about the architecture there is the usage of lights to highlight and frame the gorgeous structure of traditional buildings. Things look serene during the day, and glow with a frenetic energy at night.
@@ -15,13 +15,15 @@
 
 - forever clothing
 
-  - What does timeless fashion even mean? This was something I really focused on in the past, where people wanted to focus only on high-quality basics and timeless pieces, and for a while I thought that for me it was some sort of final solution for clothing. I've only since realized that this is missing an absolutely critical aspect — self-expression, which I'm sure is obvious to actual fashion enthusiasts. To me, to be timeless is not to stick just with whatever has withstood the test of time, but also to find some core kernel of yourself that you can express through clothing. If you find that kernel and can match it with dress, then it's also timeless, _for you_. Here's some qualities that "forever clothes" should have in my eyes:
+  - For a long time, I've been obsessed with the idea of timeless fashion. I find the idea of not being tossed about by whatever is trendy very gravitating. In the past this meant that I focused only on high-quality basics and styles that have withstood the test of time, which I thought allowed me to remain above the trends. Through my recent dives deeper into fashion, however, I've realized that I feel at my best when what I wear takes what's good from the trend while also reflecting fundamental aspects of myself. As an example, I've been diving more into streetwear recently, and I still don't necessarily like the anarchic or overly edgy aspects of streetwear (this clashes with my personality). However, I love the way streetwear plays with form and silhouettes, and how streetwear can be both presentable and expressive while being non-conforming.
 
-  - 1. Accent good physical qualities, and hide bad ones.
-    2. Avoid being trendy for the sake of trendiness.
-    3. Capture who you are (crucially, core parts of personality that aren't just phases of life), or convey impressions that you want to convey.
+  - Clearly, I've been missing several absolutely critical aspects to my fashion sense — creativity and self-expression, which I'm sure is obvious to anybody with common sense. My perspective now is that once I can find any core kernel of who I am and can match it with dress, then it's also a timeless piece _for me_. Here's some qualities that "forever clothing" should have in my eyes:
 
-  - The best clothes, in my eyes, must excel in at least 2 of the above principles and do decently in the remaining condition. My goal is to find more of these pieces and build more trendy items on top of that collection.
+  - 1. Accent my personal good physical qualities, and obscure bad ones.
+    2. Avoid being trendy while taking inspiration from the trend.
+    3. Convey aspects of who I am (especially if they aren't apparent).
+
+  - To belong, a piece must excel in at least 2 of the above principles and at least not violate the remaining condition. My fashion goal is now to find more of these pieces and build a wardrobe that captures these ideas.
 
 - mindful indulgence
 
