@@ -1,4 +1,4 @@
-- Map prediction and building intuition on top of systems
+- map prediction and building intuition on top of systems
 
   - While waiting for the J train at Dolores Park, I realized something interesting. Different terrain features can dramatically change how one should interpret the predicted arrival times of a train. The specific ones I thought about at that point were tunnels and curves. Tunnels tend to overestimate the time that public transportation will take to arrive, since signals from the tunnel tend to be delayed and/or spotty, causing guesses with stale (artificially late) data. Curves, on the other hand, tend to underestimate the time that public transportation will take to arrive, since the train is going slower than the predicted straight-line speed.
 
