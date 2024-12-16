@@ -1,3 +1,9 @@
+- Map prediction
+
+  - While waiting for the J train at Dolores Park, I realized something interesting. Different terrain features can dramatically change how one should interpret the predicted arrival times of a train. The specific ones I thought about at that point were tunnels and curves. Tunnels tend to overestimate the time that public transportation will take to arrive, since signals from the tunnel tend to be delayed and/or spotty, causing guesses with stale (artificially late) data. Curves, on the other hand, tend to underestimate the time that public transportation will take to arrive, since the train is going slower than the predicted straight-line speed.
+
+  - This probably is accounted for at least partially in map prediction algorithms, but it's not as accurate as standard calculations are. I've routinely benefitted from accounting for this. For instance, I regularly think I won't be able to make a train in SF, but because the train might go through winding curves, I do end up actually making it in time. Accounting for these factors qualitatively improves my life by letting me make trains I otherwise would not think I could make.
+
 - china
 
   - The last time I went to China before this past trip was 2016, about 8 years ago. At that point, I was still young, so I never picked up on the subtleties and interesting dynamics of Chinese society. The most striking one I observed this past trip was that China is a lesson in contrast. China is not a tokenizable experience, nor is it a homogenous one. Things that should be in opposition do in fact thrive hand-in-hand, which makes for a complex and interesting society. Here are some anecdotes:
