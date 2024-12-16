@@ -1,8 +1,8 @@
-- Map prediction
+- Map prediction and building intuition on top of systems
 
   - While waiting for the J train at Dolores Park, I realized something interesting. Different terrain features can dramatically change how one should interpret the predicted arrival times of a train. The specific ones I thought about at that point were tunnels and curves. Tunnels tend to overestimate the time that public transportation will take to arrive, since signals from the tunnel tend to be delayed and/or spotty, causing guesses with stale (artificially late) data. Curves, on the other hand, tend to underestimate the time that public transportation will take to arrive, since the train is going slower than the predicted straight-line speed.
 
-  - This probably is accounted for at least partially in map prediction algorithms, but it's not as accurate as standard calculations are. I've routinely benefitted from accounting for this. For instance, I regularly think I won't be able to make a train in SF, but because the train might go through winding curves, I do end up actually making it in time. Accounting for these factors qualitatively improves my life by letting me make trains I otherwise would not think I could make.
+  - This probably is accounted for at least partially in map prediction algorithms, but it's not as accurate as standard calculations are. I've routinely benefitted from accounting for this. For instance, there are stations where I constantly think I won't be able to make the train, but because the train might go through winding curves, I do regularly end up making it in time. Accounting for these factors qualitatively improves my life by letting me make trains I otherwise would not think I could make. I'm now curious if these types of intuitions on top of other systems can yield similar benefits.
 
 - china
 
