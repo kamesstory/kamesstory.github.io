@@ -1,3 +1,22 @@
+- all advice is bad...
+
+  - ...and it's your responsibility to parse what works for you. to do so, you must understand:
+  - 1. (W) What worked for them.
+  - 2. (M) Their mental model of you, aka what they think works for you.
+  - 3. (A) What actually works for you.
+
+  - Their advice: `T = M(W)`
+  - How you should receive their advice: `A(M^-1(T))`
+  - Apply this mathematical equation and profit 💰.
+
+- the importance of doing things on the margins
+
+  - One of the things I've noticed my extremely efficient friends do, which I tend to do when I'm productive and lapse in when I'm not, is doing things on the margins. That means just starting or continuing work even if you don't know that there's enough time to actually "complete" the entire thing. I think this is powerful because a lot of the time, our days have a ton of marginal periods of time. It's so easy to just fall into the trap of cleaning up small things in those margins — and that's fair, if those small things are truly high priority — but it tends to lead to lots of unimportant things being done, and not enough time for the big rocks to be cleared. Instead, just start on the important things. Incremental and relentless focus on the most important things to tackle is better than completing unimportant things.
+
+- don't think just do
+
+  - As the legendary sage Wei Wu says, ["be a dumb ass"](https://x.com/WuWei113/status/1892333677587153389). I've heard this echoed time and time again, such as by my close, very cracked friend who frequently says, "thinking bad doing good". Generally, it's easy to overtheorize and overoptimize, and my friends who do so tend to constantly get stuck constantly on what appears to be trivial matters. It's like watching a truck furiously spinning wheels while stuck in mud. In actuality, very few actions are irreversible and structured in a way where incremental progress does not shed as much light as initial-stage theorizing does. So, just be a dumbass and do!
+
 - map prediction and building intuition on top of systems
 
   - While I was waiting for the Muni tram at Dolores Park, I realized how differently I interpret the predicted arrival times of a train depending on different terrain features. Before the J line hits Dolores Park, there are several curves. These tend to underestimate the time that public transportation will take to arrive, since the train is likely to go slower than the predicted straight-line speed. Meanwhile, after Dolores Park, the J line merges into Market and goes into several tunnels. Tunnels tend to actually overestimate the time that public transportation will take to arrive, since signals from the tunnel tend to be delayed and/or spotty, causing guesses with stale (artificially late) data.
