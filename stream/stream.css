@@ -25,11 +25,18 @@ ul > li {
   border-radius: 0.5rem;
 
   box-shadow: rgba(0, 0, 0, 0.03) 0px 6px 24px 0px;
+  transition: 0.1s ease-in;
 
   list-style: none;
 
   margin-bottom: 1rem;
   font-weight: 600;
+
+  cursor: pointer;
+}
+
+.stream-container > ul > li:hover {
+  transform: scale(1.005);
 }
 
 ul > li > p {
