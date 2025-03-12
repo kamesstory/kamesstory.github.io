@@ -20,14 +20,20 @@ ul > li {
   line-height: 25px;
   font-size: 0.9rem;
 
-  padding: 1rem;
+  padding: 1.5rem 2rem;
   background: var(--box-color);
   border-radius: 0.5rem;
+
+  box-shadow: rgba(0, 0, 0, 0.03) 0px 6px 24px 0px;
 
   list-style: none;
 
   margin-bottom: 1rem;
   font-weight: 600;
+}
+
+ul > li > p {
+  font-size: 1.25rem;
 }
 
 ul > li > ul {
@@ -39,6 +45,10 @@ ul > li > ul > li {
   font-weight: 400;
 
   background-color: transparent;
+}
+
+ul > li > ul > li > p {
+  font-size: 0.9rem;
 }
 
 ul > li > ul > li > ol {
