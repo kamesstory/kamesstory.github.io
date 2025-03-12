@@ -18,9 +18,9 @@
 
 ul > li {
   line-height: 25px;
-  font-size: 0.9rem;
+  font-size: 1rem;
 
-  padding: 1.5rem 2rem;
+  padding: 1.25rem 1.5rem;
   background: var(--box-color);
   border-radius: 0.5rem;
 
@@ -40,7 +40,7 @@ ul > li {
 }
 
 ul > li > p {
-  font-size: 1.1rem;
+  font-size: 1.25rem;
 }
 
 ul > li > ul {
