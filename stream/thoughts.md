@@ -56,27 +56,21 @@
 
 - infinite detail
 
-  - As we grow older and see more things, our brains add neural shortcuts that
-    template experiences and reduce their emotional impact. This is why we don't
-    appreciate a scene nearly as much the third time, as the first. The best
-    way I've found to combat this is to force myself to pay attention to
-    details, such as when you paint. Even if you just sit down and stare, it's
-    so hard to notice the details of the texture of the leaves on the trees, and
-    the rock, and the sea. My goal is to carry a tool to zero in on the present
-    whenever I'm traveling, whether that's a tiny watercolor book, a camera,
-    or a little poetry notebook.
+  - As we grow older and see more things, our brains add neural shortcuts that template experiences and reduce their emotional impact. This is why we don't appreciate a scene nearly as much the third time, as the first. The best way I've found to combat this is to force myself to pay attention to details, such as when you paint. Even if you just sit down and stare, it's so hard to notice the details of the texture of the leaves on the trees, and the rock, and the sea. My goal is to carry a tool to zero in on the present whenever I'm traveling, whether that's a tiny watercolor book, a camera, or a little poetry notebook.
 
 - the lever under the world
 
-  - We live in an age where we, as technologists, have the most individual power and leverage to move the world in the history of humanity. It's absolutely amazing to be alive right now. Where are all the people who are interested in working on our most challening problems in construction, climate, government, etc?
+  - We live in an age where we, as technologists, have the most individual power and leverage to move the world in the history of humanity. It's absolutely amazing to be alive right now. Where are all the people who are interested in working on our most challenging problems in construction, climate, government, etc.?
 
-- subconscious
+- subconscious + default patterns
 
   - I've always been really happy with how much I understand and rely on my instincts and subconscious. To me, there's a huge difference between working with / trusting / relying upon your subconscious patterns of thought, and being driven by your feelings. The former involves using millennia of honed machinery to get insights derived from accumulated minute subconscious details, which are distinct from what your logical brain can notice and are really valuable. It also runs on its own, which is great since it doesnt require much effort. However, because these patterns are driven by emotional / instinctive machinery that might not apply to a given situation, understanding how your subconscious works and where it is designed to be effective is critical to applying its insights effectively. That's why the latter (being entirely driven by feelings) is bad — you divorce your decision entirely from logic.
 
+  - A related note to this is that because our brains use shortcuts very aggressively, the right mental models + patterns + frameworks are critical to helping people achieve mastery in an area. I've noticed this in engineering, where the chance to work with this one engineer at one of my previous roles has completely rewired my brain and has, in some ways, 10x'd my decision making skills. I'm curious to find out similar unlocks in other areas — if you know of any, please let me know :)
+
 - inversion of banality
 
-  - The way "the other" is depicted in fantasy games, movies, and art can be so much more sophisticated and interesting. The basic template nowadays is to depict "evil" as something clearly alien, such as with architectures of bone and tattered canvas / hide (or brutalist black stone/steel, think Mordor). But the best antagonists are those with nuance, subvert expectations, or rely on the flawed perspectives of the protagonists. It should be the same when it comes to artistic depictions of evil in fantasy. I was recently looking at [some examples of traditional architecture in Guizhou](https://www.instagram.com/p/Cjz71ckKgQO/?igshid=YmMyMTA2M2Y=), and there was this strange perspective shift in my head, where I suddenly saw wood architecture as effectively massacring trees and building (with their dead bodies) incredibly elegant structures. This was interesting because it was one of those situations where something I've been trying to do more — seeing "more clearly" — led to a complete inversion of experience of something totally normal. Inducing these more subtle senses of unease reliably would be amazing, since we would have to reconcile a clear aesthetic appreciation of beauty with something slightly unsettling.
+  - The way "the other" is depicted in fantasy games, movies, and art can be so much more sophisticated and interesting. The basic template nowadays is to depict "evil" as something clearly alien, such as with architectures of bone and tattered canvas / hide (or brutalist black stone/steel, think Mordor). But the best antagonists are those with nuance, subvert expectations, or rely on the flawed perspectives of the protagonists. It should be the same when it comes to artistic depictions of evil in fantasy. I was recently looking at [some examples of traditional architecture in Guizhou](https://www.instagram.com/p/Cjz71ckKgQO/?igshid=YmMyMTA2M2Y=), and there was this strange perspective shift in my head, where I suddenly saw this beautiful wood architecture as grotesque, essentially buildings composed of massacred trees instead of elegant structures. This was interesting because it was one of those situations where something I've been trying to do more — seeing "more clearly" — led to a complete inversion of experience of something totally normal. It'd be interesting to induce these more subtle senses of unease reliably, since we would have to reconcile a clear aesthetic appreciation of beauty with something slightly unsettling.
 
 - complete mental snapshots
 
