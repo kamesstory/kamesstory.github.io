@@ -62,7 +62,7 @@ body {
   }
 
   .stream > .headers-and-content,
-  .feuilleton > .headers-and-content,
+  .serials > .headers-and-content,
   .openwater > .headers-and-content {
     align-items: flex-start;
     justify-content: flex-start;
@@ -87,7 +87,7 @@ body {
   }
 
   .stream > .headshot-container,
-  .feuilleton > .headshot-container,
+  .serials > .headshot-container,
   .openwater > .headshot-container {
     width: 100%;
     box-shadow: rgba(0, 0, 0, 0.03) 0px 6px 24px 0px;
@@ -120,7 +120,7 @@ body {
   }
 
   .stream > .headshot-container > .headshot,
-  .feuilleton > .headshot-container > .headshot,
+  .serials > .headshot-container > .headshot,
   .openwater > .headshot-container > .headshot {
     max-height: 48px;
     max-width: 48px;
@@ -148,7 +148,7 @@ body {
   }
 
   .stream > .content-container,
-  .feuilleton > .content-container,
+  .serials > .content-container,
   .openwater > .content-container {
     width: auto;
   }
