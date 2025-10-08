@@ -2,9 +2,9 @@
  *              Main javascript file for website
  * --------------------------------------------------------------- */
 
-const onStealthLinkClick = () =>
+const onAbbycareLinkClick = () =>
   window.open(
-    "https://healthcare-co.notion.site/Healthcare-Reimagined-Build-w-Us-12d9d885ae3b4663a80be0a35e4a7116"
+    "https://www.sequoiacap.com/article/partnering-with-abby-care-a-caregiving-revolution/"
   );
 
 const onRampAcquisitionLinkClick = () =>
