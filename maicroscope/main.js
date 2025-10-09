@@ -195,18 +195,22 @@ function positionPopup(trigger, popup) {
   const margin = 20;
   const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
-  // Try to position to the right first
-  const rightSpace = window.innerWidth - triggerRect.right;
+  // Position using rule of thirds - offset 2/3 from the trigger
+  const triggerCenter = triggerRect.left + triggerRect.width / 2;
+  let leftPosition = triggerCenter - (popupWidth * 2) / 3;
 
-  if (rightSpace > popupWidth + margin) {
-    // Position to the right
-    popup.style.left = `${triggerRect.right + margin}px`;
-  } else {
-    // Position to the left
-    popup.style.left = `${triggerRect.left - popupWidth - margin}px`;
+  // Adjust if it would go off the left edge
+  if (leftPosition < margin) {
+    leftPosition = margin;
   }
 
-  popup.style.top = `${triggerRect.top + scrollTop}px`;
+  // Adjust if it would go off the right edge
+  if (leftPosition + popupWidth > window.innerWidth - margin) {
+    leftPosition = window.innerWidth - popupWidth - margin;
+  }
+
+  popup.style.left = `${leftPosition}px`;
+  popup.style.top = `${triggerRect.bottom + scrollTop + 10}px`;
 }
 
 // Show mobile modal
