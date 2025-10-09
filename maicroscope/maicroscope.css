@@ -99,24 +99,19 @@
   background: linear-gradient(
     to bottom,
     transparent 0%,
-    transparent 60%,
-    rgba(144, 165, 196, 0.25) 60%,
-    rgba(144, 165, 196, 0.25) 100%
+    transparent 50%,
+    rgba(144, 165, 196, 0.4) 50%,
+    rgba(144, 165, 196, 0.4) 100%
   );
   cursor: pointer;
-  transition: background 0.2s ease;
+  transition: all 0.2s ease;
   position: relative;
-  padding: 0 2px;
+  padding: 2px 4px;
+  border-radius: 2px;
 }
 
 .sidebar-trigger:hover {
-  background: linear-gradient(
-    to bottom,
-    transparent 0%,
-    transparent 60%,
-    rgba(86, 115, 167, 0.35) 60%,
-    rgba(86, 115, 167, 0.35) 100%
-  );
+  background: rgba(86, 115, 167, 0.25);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -124,58 +119,63 @@
     background: linear-gradient(
       to bottom,
       transparent 0%,
-      transparent 60%,
-      rgba(174, 198, 234, 0.2) 60%,
-      rgba(174, 198, 234, 0.2) 100%
+      transparent 50%,
+      rgba(174, 198, 234, 0.35) 50%,
+      rgba(174, 198, 234, 0.35) 100%
     );
   }
 
   .sidebar-trigger:hover {
-    background: linear-gradient(
-      to bottom,
-      transparent 0%,
-      transparent 60%,
-      rgba(196, 218, 253, 0.3) 60%,
-      rgba(196, 218, 253, 0.3) 100%
-    );
+    background: rgba(196, 218, 253, 0.3);
   }
 }
 
 /* Desktop sidebar popup */
 .sidebar-popup {
   position: absolute;
-  width: 280px;
+  width: 360px;
   background: var(--background);
   border: 1px solid var(--box-color);
-  border-radius: 8px;
-  padding: 16px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2), 0 2px 8px rgba(0, 0, 0, 0.1);
   z-index: 1000;
   opacity: 0;
   pointer-events: none;
-  transition: opacity 0.2s ease;
-  font-size: 0.9rem;
-  line-height: 1.6;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  transform: translateY(-5px);
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--text);
 }
 
 .sidebar-popup.visible {
   opacity: 1;
   pointer-events: auto;
+  transform: translateY(0);
 }
 
 .sidebar-popup h4 {
-  font-size: 1rem;
-  margin-bottom: 0.8rem;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
   color: var(--highlight);
   font-weight: 600;
 }
 
 .sidebar-popup p {
   margin-bottom: 0.8rem;
+  color: var(--text);
 }
 
 .sidebar-popup p:last-child {
   margin-bottom: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  .sidebar-popup {
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5), 0 2px 8px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+  }
 }
 
 /* Mobile modal */
@@ -244,6 +244,7 @@
 .sidebar-modal-body p {
   margin-bottom: 1rem;
   line-height: 1.7;
+  color: var(--text);
 }
 
 .sidebar-modal-body p:last-child {

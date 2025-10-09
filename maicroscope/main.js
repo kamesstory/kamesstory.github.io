@@ -4,7 +4,7 @@ const sidebars = [
     id: "measurement",
     title: "The Measurement Problem",
     content: `How do we even know what a neuron "means"? The standard approach: show it a bunch of inputs, see when it activates, and guess. But maybe neurons don't "mean" anything in the human sense. Maybe meaning is something we're projecting onto patterns of activation because we're pattern-seeking creatures who need things to make narrative sense. This isn't just philosophical—if neurons don't have stable meanings, our whole interpretive framework might be built on sand.`,
-    triggerText: 'How do we even know what a neuron "means"?',
+    triggerText: "what makes individual neurons fire",
   },
   {
     id: "atomicity",
@@ -22,8 +22,7 @@ This isn't just abstract philosophy. If we want to surgically remove dangerous c
 Maybe features are real discrete things the model manipulates, like variables in a program. Or maybe the model operates on continuous, high-dimensional manifolds, and we're imposing discrete categories that feel natural to us but don't carve reality at its joints.
 
 This isn't just philosophical—it's deeply practical. If features aren't "real," then all our interventions (removing dangerous features, steering behavior) might be operating on the wrong ontology. We'd be adjusting dials that don't correspond to anything the model actually uses.`,
-    triggerText:
-      "This is pretty compelling evidence that we found something real",
+    triggerText: "we found something real",
   },
   {
     id: "feature-splitting",
@@ -43,7 +42,7 @@ This matters for safety work. If you want to remove a dangerous capability, do y
 Sometimes they do. Induction heads appear in both small and large models. Feature hierarchies seem consistent. But phase transitions mean larger models can develop qualitatively new capabilities that simply don't exist in smaller models. There's no smooth ramp-up that would let us see them coming.
 
 This is interpretability's biggest bet: that we're learning something relevant about the systems we actually care about. We won't know if the bet pays off until we can scale our techniques to production systems.`,
-    triggerText: "most of what we've learned comes from studying small models",
+    triggerText: "studying small models",
   },
   {
     id: "completeness",
@@ -53,7 +52,7 @@ This is interpretability's biggest bet: that we're learning something relevant a
 This is the completeness vs minimality tradeoff. A "complete" explanation might be incredibly complex with hundreds of components and backup pathways. A "minimal" explanation might miss important redundancies that matter when the model is stressed or adversarially attacked.
 
 Which matters more? Depends on your goal. If you're trying to understand how the model works, you probably want completeness. If you're trying to intervene to remove a dangerous capability, you might prefer minimality because simpler interventions are less likely to have unexpected side effects.`,
-    triggerText: "You identify a behavior you want to understand",
+    triggerText: "tracing how information flows through the model",
   },
   {
     id: "emergence",
@@ -71,7 +70,7 @@ Some researchers argue that emergence might be partially a measurement artifact�
 Full understanding would be amazing but might not be necessary. Maybe we can develop targeted interpretability tools that focus specifically on safety-relevant features and circuits. This changes what research we prioritize—less "catalog every feature in the model" and more "develop tools to detect and intervene on specific concerning patterns."
 
 Of course, this assumes we can identify which features are safety-relevant before problems emerge. Given phase transitions and our limited understanding of large models, that's optimistic. The field is still figuring out the right approach.`,
-    triggerText: "The question is whether we'll crack the problem",
+    triggerText: "before we build systems we really need to understand",
   },
 ];
 
@@ -192,7 +191,7 @@ function createDesktopPopup(sidebar) {
 // Position popup relative to trigger
 function positionPopup(trigger, popup) {
   const triggerRect = trigger.getBoundingClientRect();
-  const popupWidth = 280;
+  const popupWidth = 360;
   const margin = 20;
   const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
