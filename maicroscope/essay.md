@@ -261,6 +261,6 @@ The goal isn't just to understand AI for its own sake, though that's intellectua
 
 ---
 
-_Thanks to the researchers pushing the boundaries of what we can understand about these systems. And to Douglas Adams, who showed us that the best field guides have personality._
+_Thanks to Douglas Adams, who showed us that the best field guides have personality._
 
 _Don't forget your towel._
