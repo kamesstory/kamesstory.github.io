@@ -210,7 +210,29 @@ function positionPopup(trigger, popup) {
   }
 
   popup.style.left = `${leftPosition}px`;
-  popup.style.top = `${triggerRect.bottom + scrollTop + 10}px`;
+
+  // Determine vertical position - check if there's room below
+  // First, temporarily show popup to measure its height
+  popup.style.visibility = "hidden";
+  popup.style.display = "block";
+  const popupHeight = popup.offsetHeight;
+  popup.style.display = "";
+  popup.style.visibility = "";
+
+  const spaceBelow = window.innerHeight - triggerRect.bottom;
+  const spaceAbove = triggerRect.top;
+
+  // Position below if there's enough space, otherwise position above
+  if (spaceBelow >= popupHeight + margin) {
+    // Position below the trigger
+    popup.style.top = `${triggerRect.bottom + scrollTop + 10}px`;
+  } else if (spaceAbove >= popupHeight + margin) {
+    // Position above the trigger
+    popup.style.top = `${triggerRect.top + scrollTop - popupHeight - 10}px`;
+  } else {
+    // Not enough space either way, position below and let it scroll
+    popup.style.top = `${triggerRect.bottom + scrollTop + 10}px`;
+  }
 }
 
 // Show mobile modal
