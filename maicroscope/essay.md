@@ -2,6 +2,8 @@
 
 _Or: A Hitchhiker's Guide to Mechanistic Interpretability_
 
+_Note: this is a rough draft of an introductory, fun guide to mechanistic interpretability. More chapters will come along soon!_
+
 ---
 
 ## Don't Panic
