@@ -1,6 +1,4 @@
-# Maicroscopes
-
-_Or: A Hitchhiker's Guide to Mechanistic Interpretability_
+# A Hitchhiker's Guide to Your AI's Inner Thoughts
 
 _Note: this is a rough draft of an introductory, fun guide to mechanistic interpretability. More chapters will come along soon!_
 
