@@ -26,12 +26,19 @@ Fair warning: a lot of what we've learned comes from studying tinier models than
 
 ## What's Next
 
-This guide is organized into several major arcs.
+This guide is organized into two major portions, as long as you've found this book intact (godspeed to you if not).
 
-First, we'll talk about some of the key concepts when dealing with interpretability (features, circuits) and look at some of the tools that help us identify these concepts.
+**The Quick Reference** gives you the 15-minute overview. Need to disarm your AI in 15 minutes? Read this section. It will improve your odds of survival by ... well ... I think you'll be better off?
 
-Next, we will do a deep dive of other tools that have revealed interesting information into the behavior of models.
+**The Deep Dives** (Chapters 1-4) explore specific tools and discoveries in detail. Want to really understand how we find features? Chapter 1. Want to know what circuits are and why induction heads are everywhere? Chapter 2. Each chapter includes Maicroscopes you can play with, to peer at actual models and watch them do things.
 
-The last arc will be focused on what we've learned, and give you all a ready-to-use toolkit in the case of emergency AI debugging.
+**Choose your own adventure:**
 
-Let's get started!
+- Got an emergency? → Quick Reference
+- Want to understand features deeply? → Chapter 1
+- Want to understand circuits? → Chapter 2
+- Want to explore other tools? → Chapter 3
+- Want to see what we've discovered? → Chapter 4
+- Have no idea what any of these words mean? → Reread this introduction
+
+Let's get started. And remember: Don't Panic! It won't help anyway.
