@@ -14,9 +14,9 @@ _Your AI is running rampant and you have 15 minutes to disarm it... well, you sh
 
 The obvious starting point for understanding a neural network is to look at what the individual neurons do. Each neuron takes in signals (inputs) from other neurons, does some math, and produces an output. So go ahead and pull out that lens, take a look at your neurons, see what makes different neurons activate, and then we'll understand exactly what the model is thinking and why!
 
-...I really hope that you didn't stop reading there. Remember, you're on a timer, you can't stop
+...I really hope that you didn't stop reading there. Remember, you're on a timer!
 
-Wrong. When researchers started systematically studying what makes individual neurons fire, they found chaos. One neuron might respond to:
+When researchers started systematically studying what makes individual neurons fire, they found chaos. One neuron might respond to:
 
 - The word "the"
 - URLs containing "https"
@@ -24,13 +24,13 @@ Wrong. When researchers started systematically studying what makes individual ne
 - The number 7
 - Arabic script
 
-What is this neuron even doing? This is called **polysemanticity**—one neuron responding to multiple, often completely unrelated concepts.
+What is this neuron even doing? This is called **polysemanticity**. One neuron responds to multiple, often completely unrelated concepts.
 
-Why does this happen? The model needs to represent way more concepts than it has neurons. A model with 100,000 neurons might need to represent millions of concepts—"Golden Gate Bridge," "past tense," "sarcasm," "the color red," and approximately one million other things.
+Why does this happen? Well, think about all the things there are to know — there's far too much! The model has too few neurons to store one fact or idea per neuron. A model with 100,000 neurons might need to represent billions of concepts — "Golden Gate Bridge," "past tense," "sarcasm," "the color red," and billions of other things.
 
-The model solves this through **superposition**: it packs multiple features into the same neurons by exploiting sparsity. If concept A appears in 1% of inputs and concept B appears in a different 1% of inputs, the model can use overlapping neurons to represent both. There's occasional interference when both appear at once, but most of the time it works fine. It's efficient, but terrible for our understanding. We can't just read off what neurons mean because they don't have clean, single meanings.
+The model solves this through what is called **superposition**: it packs multiple concepts or ideas into the same neurons. How does that happen? By exploiting how frequently the information appears — aka **sparsity**. If the "golden gate bridge" appears in 1% of inputs and "rice water hair conditioner" appears in a very different 1% of inputs, the model can use overlapping neurons to represent both. There's occasional interference when both appear at once, but most of the time it works fine. It's efficient, but terrible for our understanding. We can't just read off what neurons mean because they don't have clean, single meanings.
 
-We need better tools.
+We need a better way to think about how models store information.
 
 ---
 
