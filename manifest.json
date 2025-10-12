@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
-  "name": "jasonwa.ng | home",
+  "name": "jasonwa.ng",
 
   "content_security_policy": "script-src 'self'; object-src 'self'",
-  "description": "Personal Website for Jason Wang",
+  "description": "hi, i'm jason",
 
   "icons": {
     "512": "./assets/mountains-inside-a-circle.png"
