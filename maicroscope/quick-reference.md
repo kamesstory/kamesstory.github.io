@@ -4,21 +4,17 @@ _Note: this is a rough draft of an introductory, fun guide to mechanistic interp
 
 ---
 
-## Don't Panic
+# Quick Reference
 
-AI models do surprising, powerful, sometimes concerning things, and we don't really understand how. They write code, answer questions, translate languages, and occasionally hallucinate facts with impressive confidence. But if you ask "how does it actually work inside?"—well, that's where things get fuzzy.
-
-This matters for several reasons. If we want AI systems to be safe and trustworthy, it helps to understand their internals rather than treating them as magical black boxes. If we want to improve them, we need to know what's happening under the hood. And from a pure scientific curiosity perspective, we've built these incredibly complex systems and it would be nice to actually understand them.
-
-**Mechanistic interpretability** is the field dedicated to figuring out how these models work. Not just "it predicts the next word" but "here's the actual circuit of computations that makes it able to do X." This is a guide to that endeavor—what we're looking for, how we look for it, and what we've found so far.
-
-Fair warning: most of what we've learned comes from studying small models—think GPT-2, which is about 100-1000x smaller than the models you use daily. We're basically trying to understand humans by studying mice. Keep that in mind as we go.
+_Your AI is running rampant and you have 15 minutes to disarm it... well, you should probably start reading!_
 
 ---
 
-## The Core Problem: Neurons Are Messy
+## Who Knew That Peering Into A Mind Is Not Easy?
 
-The obvious starting point for understanding a neural network is to look at what individual neurons do. A neuron takes inputs, does some math, and produces an output. So let's look at what makes different neurons activate, and we'll understand what concepts the model has learned, right?
+The obvious starting point for understanding a neural network is to look at what the individual neurons do. Each neuron takes in signals (inputs) from other neurons, does some math, and produces an output. So go ahead and pull out that lens, take a look at your neurons, see what makes different neurons activate, and then we'll understand exactly what the model is thinking and why!
+
+...I really hope that you didn't stop reading there. Remember, you're on a timer, you can't stop
 
 Wrong. When researchers started systematically studying what makes individual neurons fire, they found chaos. One neuron might respond to:
 
