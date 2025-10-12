@@ -75,11 +75,6 @@
   margin-bottom: 1.2rem;
 }
 
-.essay-content p strong:only-child {
-  display: block;
-  margin-bottom: 0.3rem;
-}
-
 .essay-content p:has(strong:only-child) {
   margin-bottom: 0.3rem;
 }
