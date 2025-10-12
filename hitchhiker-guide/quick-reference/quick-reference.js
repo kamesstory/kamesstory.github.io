@@ -1,4 +1,4 @@
-// Sidebar data extracted from the essay
+// Sidebar data extracted from the quick reference
 const sidebars = [
   {
     id: "measurement",
@@ -76,7 +76,7 @@ Of course, this assumes we can identify which features are safety-relevant befor
 
 // Headshot click handler
 function onHeadshotClick() {
-  window.location.href = "../index.html";
+  window.location.href = "../../index.html";
 }
 
 // Load and parse the essay
@@ -92,7 +92,7 @@ async function loadEssay() {
       return;
     }
 
-    const response = await fetch("table-of-contents.md");
+    const response = await fetch("../quick-reference.md");
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
