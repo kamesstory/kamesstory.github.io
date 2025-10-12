@@ -261,10 +261,6 @@ The goal isn't just to understand AI for its own sake, though that's intellectua
 
 ---
 
-_Thanks to Douglas Adams, who showed us that the best field guides have personality._
-
-_Don't forget your towel._
-
 <div class="chapter-nav">
   <a href="../introduction/" class="prev-chapter">Previous: Introduction</a>
   <span class="next-chapter-disabled">Next: Chapter 1 (Coming Soon)</span>

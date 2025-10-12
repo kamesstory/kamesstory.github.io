@@ -29,3 +29,9 @@ _Coming soon: Toy Models, Probes, Activation steering, Logit lens._
 ### Chapter 4: What We've Discovered
 
 _Coming soon: Key findings from the field and your full toolkit of maicroscopes._
+
+---
+
+_Thanks to Douglas Adams, who showed us that the best field guides have personality._
+
+_Don't forget your towel._
