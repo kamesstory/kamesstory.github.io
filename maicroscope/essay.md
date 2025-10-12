@@ -1,4 +1,4 @@
-# A Hitchhiker's Guide to Understanding Your AI
+# The Hitchhiker's Guide to Understanding Your AI
 
 _Note: this is a rough draft of an introductory, fun guide to mechanistic interpretability. More chapters will come along soon!_
 
