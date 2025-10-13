@@ -10,7 +10,7 @@ _Note: this is a rough draft of an introductory, fun guide to mechanistic interp
 
 # Chapter 0: Introduction
 
-_The weird world of not understanding what's going on your AI's head... guess this must be what it's like to have children._
+_The weird world of not understanding what's going on your AI's head... sounds like having children._
 
 ---
 
