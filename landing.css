@@ -1,15 +1,17 @@
-.landing > .headshot-container {
-  position: relative;
-  padding: 0;
+@media screen and (max-width: 850px) {
+  .landing > .headshot-container {
+    position: relative;
+    padding: 0;
 
-  > .headshot {
-    max-height: 100%;
-    max-width: 100%;
+    > .headshot {
+      max-height: 100%;
+      max-width: 100%;
+    }
   }
-}
 
-.landing > .content-container {
-  padding-top: 50px;
+  .landing > .content-container {
+    padding-top: 50px;
+  }
 }
 
 .content-greeting {
@@ -19,7 +21,7 @@
 
 .content-body {
   font-size: 1.25rem;
-  line-height: 30px;
+  line-height: 35px;
   margin-bottom: 15px;
 }
 
@@ -29,19 +31,5 @@
 }
 
 .link-container div:not(:last-child) {
-  margin-bottom: 14px;
-}
-
-@media only screen and (max-width: 850px) {
-  .content-greeting {
-    font-size: 2rem;
-  }
-
-  .content-body {
-    font-size: 1rem;
-  }
-
-  .link-container {
-    font-size: 1rem;
-  }
+  margin-bottom: 0.5rem;
 }
