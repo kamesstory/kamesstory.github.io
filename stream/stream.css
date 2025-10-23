@@ -60,10 +60,12 @@ ul > li > ul > li > p {
 
 ul > li > ul > li > ol {
   margin-left: 1rem;
+  padding-left: 1.5rem;
 }
 
 ul > li > ul > li > ul {
   margin-left: 1rem;
+  padding-left: 1.5rem;
 }
 
 ul > li > ul > li:last-child {
