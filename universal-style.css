@@ -82,13 +82,19 @@ body {
   .stream > .headshot-container,
   .serials > .headshot-container,
   .openwater > .headshot-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     width: 100%;
-    box-shadow: rgba(0, 0, 0, 0.03) 0px 6px 24px 0px;
+    z-index: 100;
+    background-color: var(--background);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 
     align-items: start;
     justify-content: start;
 
-    padding-bottom: 20px;
+    padding: 20px;
   }
 }
 
@@ -161,6 +167,7 @@ body {
   .stream > .content-container,
   .serials > .content-container,
   .openwater > .content-container {
+    padding-top: 80px;
     padding-bottom: 80px;
     width: auto;
   }
