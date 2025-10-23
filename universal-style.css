@@ -33,7 +33,7 @@ html,
 body {
   background-color: var(--background);
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 ::-webkit-scrollbar {
@@ -44,26 +44,23 @@ body {
   display: flex;
   flex-direction: row;
 
-  height: 100%;
-  width: 100%;
-
   align-items: center;
   justify-content: center;
 
   text-align: left;
   cursor: default;
   color: var(--text);
+
+  padding: 20px;
 }
 
 @media screen and (max-width: 850px) {
-  .headers-and-content {
+  .landing.headers-and-content,
+  .stream.headers-and-content,
+  .serials.headers-and-content,
+  .openwater.headers-and-content {
     flex-direction: column;
-    justify-content: flex-start;
-  }
 
-  .stream > .headers-and-content,
-  .serials > .headers-and-content,
-  .openwater > .headers-and-content {
     align-items: flex-start;
     justify-content: flex-start;
   }
@@ -77,15 +74,11 @@ body {
 
   user-select: none;
 
-  padding: 20px;
   box-sizing: border-box; /* Opera/IE 8+ */
 }
 
 @media screen and (max-width: 850px) {
-  .landing > .headshot-container {
-    width: 100%;
-  }
-
+  .landing > .headshot-container,
   .stream > .headshot-container,
   .serials > .headshot-container,
   .openwater > .headshot-container {
@@ -94,13 +87,31 @@ body {
 
     align-items: start;
     justify-content: start;
+
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 851px) {
+  .landing > .headshot-container,
+  .serials > .headshot-container,
+  .stream > .headshot-container,
+  .openwater > .headshot-container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    padding: 20px;
+    padding-left: 10vw;
   }
 }
 
 .headshot {
-  max-height: 500px;
-  max-width: 500px;
-
   border-radius: 0.5rem;
   overflow: hidden;
 
@@ -114,11 +125,7 @@ body {
 }
 
 @media screen and (max-width: 850px) {
-  .headshot {
-    max-height: 100%;
-    max-width: 100%;
-  }
-
+  .landing > .headshot-container > .headshot,
   .stream > .headshot-container > .headshot,
   .serials > .headshot-container > .headshot,
   .openwater > .headshot-container > .headshot {
@@ -129,6 +136,15 @@ body {
   }
 }
 
+@media screen and (min-width: 851px) {
+  .landing > .headshot-container > .headshot,
+  .serials > .headshot-container > .headshot,
+  .stream > .headshot-container > .headshot,
+  .openwater > .headshot-container > .headshot {
+    max-width: 90%;
+  }
+}
+
 .content-container {
   display: flex;
   flex-direction: column;
@@ -136,21 +152,29 @@ body {
   align-items: flex-start;
 
   max-width: 100%;
-  width: 560px;
 
-  padding: 20px;
   box-sizing: border-box;
 }
 
 @media screen and (max-width: 850px) {
-  .content-container {
-    padding-bottom: 80px;
-  }
-
+  .landing > .content-container,
   .stream > .content-container,
   .serials > .content-container,
   .openwater > .content-container {
+    padding-bottom: 80px;
     width: auto;
+  }
+}
+
+@media screen and (min-width: 851px) {
+  .landing > .content-container,
+  .serials > .content-container,
+  .stream > .content-container,
+  .openwater > .content-container {
+    margin-left: 50%;
+
+    padding: 20px;
+    padding-right: 10vw;
   }
 }
 
