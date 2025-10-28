@@ -30,6 +30,6 @@ const onFBNLinkClick = () =>
 const onLinkedinLinkClick = () =>
   window.open("https://linkedin.com/in/jason-hf-wang");
 
-const onGithubLinkClick = () => window.open("https://github.com/kamesstory");
+const onGithubLinkClick = () => window.open("https://github.com/jasonhfwang");
 
 const onEmailLinkClick = () => window.open("mailto:jhw513@gmail.com");
