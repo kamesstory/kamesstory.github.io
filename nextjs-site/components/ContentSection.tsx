@@ -23,12 +23,27 @@ type ContentItem = {
   content: string;
 };
 
+// Strip markdown links to plain text for scrambling
+function stripMarkdownLinks(text: string): string {
+  return text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, "$1");
+}
+
+// Convert markdown-style links [text](url) to HTML
+function markdownToHTML(text: string): string {
+  return text.replace(
+    /\[([^\]]+)\]\(([^)]+)\)/g,
+    '<a href="$2" target="_blank" rel="noopener noreferrer" class="text-accent hover:text-secondary transition-colors duration-150">$1</a>'
+  );
+}
+
 export default function ContentSection({
   title,
   sectionType,
 }: ContentSectionProps) {
   const [content, setContent] = useState<string>("");
+  const [strippedContent, setStrippedContent] = useState<string>("");
   const [isRefreshing, setIsRefreshing] = useState(false);
+  const [isScrambling, setIsScrambling] = useState(true);
 
   // Get preset timing based on section type (deterministic for SSR)
   const timing = animationPresets[sectionType];
@@ -37,7 +52,10 @@ export default function ContentSection({
     try {
       const response = await fetch(`/api/content/${sectionType}`);
       const data: ContentItem = await response.json();
-      setContent(`${data.title}. ${data.content}`);
+      const fullContent = `${data.title}. ${data.content}`;
+      setContent(fullContent);
+      setStrippedContent(stripMarkdownLinks(fullContent));
+      setIsScrambling(true);
     } catch (error) {
       console.error("Error fetching content:", error);
     }
@@ -54,7 +72,7 @@ export default function ContentSection({
   };
 
   const { ref } = useScramble({
-    text: content,
+    text: strippedContent,
     speed: 1,
     tick: 1,
     step: 3,
@@ -63,6 +81,7 @@ export default function ContentSection({
     chance: 0.8,
     range: [65, 125],
     overdrive: false,
+    onAnimationEnd: () => setIsScrambling(false),
   });
 
   return (
@@ -99,10 +118,17 @@ export default function ContentSection({
             animationDelay: `${timing.delay}s, ${timing.delay * 0.8}s`,
           }}
         >
-          <div
-            ref={ref}
-            className="text-foreground leading-relaxed font-mono [&_*]:no-underline [&_*]:!border-0"
-          />
+          {isScrambling ? (
+            <div
+              ref={ref}
+              className="text-foreground leading-relaxed font-mono"
+            />
+          ) : (
+            <div
+              className="text-foreground leading-relaxed font-mono [&_a]:border-b [&_a]:border-accent"
+              dangerouslySetInnerHTML={{ __html: markdownToHTML(content) }}
+            />
+          )}
         </div>
       </div>
     </div>
