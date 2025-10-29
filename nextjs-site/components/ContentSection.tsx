@@ -54,7 +54,7 @@ export default function ContentSection({
 
   return (
     <div className="mb-10">
-      <h2 className="text-xl font-display font-semibold text-foreground mb-4 tracking-tight">
+      <h2 className="text-lg font-display font-semibold text-foreground mb-3 tracking-tight">
         {title}
       </h2>
       <div className="relative border border-muted/20 rounded-lg p-4 bg-subtle/10">

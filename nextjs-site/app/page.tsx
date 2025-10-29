@@ -22,10 +22,10 @@ export default function Home() {
 
         {/* Intro Section */}
         <div className="mb-12">
-          <h1 className="text-4xl font-display font-bold mb-6 text-foreground tracking-tight">
+          <h1 className="text-3xl font-display font-bold mb-6 text-foreground tracking-tight">
             Hi, I'm Jason.
           </h1>
-          <div className="space-y-4 text-foreground text-lg">
+          <div className="space-y-4 text-foreground text-base">
             <p>
               I'm currently Founding Engineer at{" "}
               <BioLink href="https://abbycare.com">AbbyCare</BioLink>, building

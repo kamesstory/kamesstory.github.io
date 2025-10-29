@@ -106,7 +106,7 @@ Each file should include frontmatter with a title and the content body.
 - Display/Headings: Space Grotesk (geometric, futuristic)
 - Body: Inter (modern sans-serif)
 - Code/Mono: IBM Plex Mono
-- Base size: 16px
+- Base size: 15px
 
 ## Future Enhancements
 
