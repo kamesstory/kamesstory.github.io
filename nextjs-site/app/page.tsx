@@ -21,29 +21,15 @@ export default function Home() {
               </span>
             </div>
             {/* Image Content */}
-            <div className="p-1 relative group">
-              <div className="relative overflow-hidden">
-                <Image
-                  src="/jason-swim-photo-trimmed.png"
-                  alt="Jason swimming"
-                  width={300}
-                  height={300}
-                  className="w-full transition-all duration-300"
-                  style={{
-                    filter: "grayscale(0.7) brightness(0.9) contrast(1.1)",
-                  }}
-                  priority
-                />
-                <Image
-                  src="/jason-swim-photo-trimmed.png"
-                  alt="Jason swimming"
-                  width={300}
-                  height={300}
-                  className="w-full absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                  priority
-                />
-              </div>
-              <div className="absolute inset-0 bg-background opacity-30 group-hover:opacity-0 transition-opacity duration-300 pointer-events-none" />
+            <div className="p-1">
+              <Image
+                src="/jason-swim-photo-trimmed.png"
+                alt="Jason swimming"
+                width={300}
+                height={300}
+                className="w-full"
+                priority
+              />
             </div>
           </div>
         </div>
