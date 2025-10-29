@@ -8,7 +8,7 @@ export default function Home() {
       <div className="max-w-2xl mx-auto w-full lg:w-1/2">
         {/* Profile Image */}
         <div className="mb-8 w-[30%]">
-          <div className="border-2 border-accent/30 p-1 bg-subtle/20 cursor-pointer">
+          <div className="border-2 border-accent p-1 cursor-pointer">
             <Image
               src="/jason-swim-photo-trimmed.png"
               alt="Jason swimming"
