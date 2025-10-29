@@ -70,7 +70,10 @@ export default function Home() {
             title="A Thing I've Worked On"
             sectionType="projects"
           />
-          <ContentSection title="A Thing I Love" sectionType="specialities" />
+          <ContentSection
+            title="A Thing I Love Doing"
+            sectionType="specialities"
+          />
           <ContentSection title="A Thought I've Had" sectionType="thoughts" />
         </div>
       </div>

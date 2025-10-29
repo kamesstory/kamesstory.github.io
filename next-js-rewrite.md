@@ -33,7 +33,7 @@ Here are a list of things I will include:
 - Tech & Check
 - mPower
 
-2. A Thing I Love
+2. A Thing I Love Doing
 
 This is a section on random things that I've done. The goal here is to showcase that I am a DOER, I just do things and delight in life. For now, fill with lorem ipsum text of various lengths.
 
