@@ -1,13 +1,14 @@
 ---
-title: all advice is bad...
+title: all advice is bad
 ---
 
-...and it's your responsibility to parse what works for you. To do so, you must understand:
+and it's your responsibility to parse what works for you. To do so, you must understand:
 
-1. (T) What worked for them.
-2. (M) Their mental model of you, aka what they think works for you.
-3. (Y) What actually works for you.
+1. (X) What actually works for them
+2. (Y) Their mental model of themselves, aka what they think works for them.
+3. (M) Their mental model of you, aka what they think works for you.
+4. (Z) What actually works for you
 
-Their advice: `A = M(T)`
-How you should receive their advice: `Y(M^-1(A))`
+Their advice: `A = M(Y(X))`
+How you should receive their advice: `Z(Y^-1((M^-1(A)))`
 Apply this mathematical equation and profit 💰.
