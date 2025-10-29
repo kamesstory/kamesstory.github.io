@@ -2,4 +2,4 @@
 title: Tech & Check
 ---
 
-**Tech & Check:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit.
+**Tech & Check:** an initiative by the Reporter's Lab to use LLMs to automatically fact-check information on websites. I helped build our first prototype using BERT as a basis.

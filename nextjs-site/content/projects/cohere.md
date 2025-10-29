@@ -2,4 +2,4 @@
 title: Cohere
 ---
 
-**Cohere:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+**Cohere:** is the startup I cofounded. We built cobrowsing and AI support tools for teams around the world. I helped build our general cobrowsing + DOM mutation engine, which streamed our customers' webpages to our client dashboard, so agents could help users with any support or onboarding questions. In addition to that, I led sales + growth, acquiring our first few customers + Enterprise contracts.
