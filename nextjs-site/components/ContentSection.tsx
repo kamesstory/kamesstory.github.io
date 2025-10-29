@@ -9,13 +9,14 @@ type ContentSectionProps = {
 };
 
 // Preset animation timings that feel random but are consistent
-const animationPresets = [
-  { breathe: 6.2, glow: 8.5, delay: -3.7 },
-  { breathe: 7.8, glow: 9.3, delay: -6.1 },
-  { breathe: 5.4, glow: 10.7, delay: -2.3 },
-];
-
-let presetIndex = 0;
+const animationPresets: Record<
+  string,
+  { breathe: number; glow: number; delay: number }
+> = {
+  projects: { breathe: 6.2, glow: 8.5, delay: -3.7 },
+  specialities: { breathe: 7.8, glow: 9.3, delay: -6.1 },
+  thoughts: { breathe: 5.4, glow: 10.7, delay: -2.3 },
+};
 
 type ContentItem = {
   title: string;
@@ -29,12 +30,8 @@ export default function ContentSection({
   const [content, setContent] = useState<string>("");
   const [isRefreshing, setIsRefreshing] = useState(false);
 
-  // Get preset timing for this instance
-  const [timing] = useState(() => {
-    const preset = animationPresets[presetIndex % animationPresets.length];
-    presetIndex++;
-    return preset;
-  });
+  // Get preset timing based on section type (deterministic for SSR)
+  const timing = animationPresets[sectionType];
 
   const fetchRandomContent = async () => {
     try {
