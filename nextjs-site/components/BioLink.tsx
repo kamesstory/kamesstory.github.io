@@ -22,9 +22,9 @@ export default function BioLink({
       onMouseLeave={() => setIsHovered(false)}
       target={external ? "_blank" : undefined}
       rel={external ? "noopener noreferrer" : undefined}
-      className="inline-flex items-center relative"
+      className="inline relative whitespace-nowrap"
     >
-      <span>{children}</span>
+      {children}
       <span className="text-xs ml-1">↗</span>
     </a>
   );
