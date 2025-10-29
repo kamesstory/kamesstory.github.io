@@ -6,7 +6,6 @@ import { useScramble } from "use-scramble";
 type ContentSectionProps = {
   title: string;
   sectionType: "projects" | "specialities" | "thoughts";
-  href?: string;
 };
 
 type ContentItem = {
@@ -17,9 +16,7 @@ type ContentItem = {
 export default function ContentSection({
   title,
   sectionType,
-  href = "#",
 }: ContentSectionProps) {
-  const [isHovered, setIsHovered] = useState(false);
   const [content, setContent] = useState<string>("");
   const [isRefreshing, setIsRefreshing] = useState(false);
 
@@ -57,26 +54,9 @@ export default function ContentSection({
 
   return (
     <div className="mb-8">
-      <a
-        href={href}
-        className="group inline-flex items-center gap-2 mb-3 border-0"
-        style={{ textDecoration: "none", borderBottom: "none" }}
-        onMouseEnter={() => setIsHovered(true)}
-        onMouseLeave={() => setIsHovered(false)}
-        onClick={(e) => e.preventDefault()}
-      >
-        <h2 className="font-mono text-lg font-semibold text-accent m-0">
-          {title}
-        </h2>
-        <span
-          className={`flex items-center gap-2 transition-opacity duration-200 ${
-            isHovered ? "opacity-100" : "opacity-0"
-          }`}
-        >
-          <span className="text-accent">→</span>
-          <span className="text-muted text-sm italic">(Coming Soon)</span>
-        </span>
-      </a>
+      <h2 className="font-mono text-lg font-semibold text-accent mb-3">
+        {title}
+      </h2>
       <div className="relative">
         <div
           ref={ref}
