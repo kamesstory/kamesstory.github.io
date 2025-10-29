@@ -22,16 +22,10 @@ export default function BioLink({
       onMouseLeave={() => setIsHovered(false)}
       target={external ? "_blank" : undefined}
       rel={external ? "noopener noreferrer" : undefined}
-      className="inline-flex items-center gap-1"
+      className="inline-flex items-center relative"
     >
       <span>{children}</span>
-      <span
-        className={`text-accent transition-opacity duration-200 text-xs ${
-          isHovered ? "opacity-100" : "opacity-0"
-        }`}
-      >
-        ↗
-      </span>
+      <span className="text-accent text-xs ml-1">↗</span>
     </a>
   );
 }
