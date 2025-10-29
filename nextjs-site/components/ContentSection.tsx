@@ -42,7 +42,7 @@ export default function ContentSection({
 
   const { ref } = useScramble({
     text: content,
-    speed: 0.9,
+    speed: 1,
     tick: 1,
     step: 3,
     scramble: 8,
@@ -55,7 +55,7 @@ export default function ContentSection({
   return (
     <div className="mb-10">
       <h2 className="text-xl font-semibold text-foreground mb-4">{title}</h2>
-      <div className="relative">
+      <div className="relative border border-muted/20 rounded-lg p-4 bg-subtle/10">
         <div
           ref={ref}
           className="text-foreground leading-relaxed [&_*]:no-underline [&_*]:!border-0 inline"
