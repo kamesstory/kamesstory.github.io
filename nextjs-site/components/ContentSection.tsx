@@ -5,7 +5,7 @@ import { useScramble } from "use-scramble";
 
 type ContentSectionProps = {
   title: string;
-  sectionType: "projects" | "activities" | "thoughts";
+  sectionType: "projects" | "specialities" | "thoughts";
   href?: string;
 };
 

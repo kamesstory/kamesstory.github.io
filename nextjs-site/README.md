@@ -25,7 +25,7 @@ nextjs-site/
 │   └── content.ts          # Content loading utilities
 └── content/
     ├── projects/           # Project markdown files
-    ├── activities/         # Activity markdown files
+    ├── specialities/       # Speciality markdown files
     └── thoughts/           # Thought/blog markdown files
 ```
 
@@ -34,7 +34,7 @@ nextjs-site/
 The landing page features three dynamic sections that randomly display content:
 
 1. **A Thing I've Built** - Projects (CalderaJS, Cohere, AbbyCare, etc.)
-2. **A Thing I Do** - Activities (U-Haul driving, hosting tea, jazz, etc.)
+2. **A Thing I Do** - Specialities (U-Haul driving, hosting tea, jazz, etc.)
 3. **A Thought I've Had** - Thoughts and blog entries
 
 Content is stored as markdown files in the `content/` directory with frontmatter:
@@ -81,8 +81,8 @@ To add new content to any section, simply create a new markdown file in the appr
 # Add a new project
 touch content/projects/my-new-project.md
 
-# Add a new activity
-touch content/activities/my-new-activity.md
+# Add a new speciality
+touch content/specialities/my-new-speciality.md
 
 # Add a new thought
 touch content/thoughts/my-new-thought.md
@@ -108,7 +108,7 @@ Each file should include frontmatter with a title and the content body.
 
 ## Future Enhancements
 
-- Implement actual routing for section links (`/projects`, `/activities`, `/thoughts`)
+- Implement actual routing for section links (`/projects`, `/specialities`, `/thoughts`)
 - Add individual content pages
 - Implement content filtering and search
 - Add transitions between random content selections

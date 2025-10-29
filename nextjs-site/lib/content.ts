@@ -8,7 +8,7 @@ export type ContentItem = {
   slug: string;
 };
 
-export type SectionType = "projects" | "activities" | "thoughts";
+export type SectionType = "projects" | "specialities" | "thoughts";
 
 export function getContentBySection(section: SectionType): ContentItem[] {
   const contentDirectory = path.join(process.cwd(), "content", section);

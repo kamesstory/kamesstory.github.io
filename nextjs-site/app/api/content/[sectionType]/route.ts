@@ -9,7 +9,7 @@ export async function GET(
 
   if (
     sectionType !== "projects" &&
-    sectionType !== "activities" &&
+    sectionType !== "specialities" &&
     sectionType !== "thoughts"
   ) {
     return NextResponse.json(
@@ -19,7 +19,7 @@ export async function GET(
   }
 
   const content = getRandomContent(
-    sectionType as "projects" | "activities" | "thoughts"
+    sectionType as "projects" | "specialities" | "thoughts"
   );
 
   if (!content) {
