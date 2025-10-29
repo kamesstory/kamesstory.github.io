@@ -33,8 +33,8 @@ nextjs-site/
 
 The landing page features three dynamic sections that randomly display content:
 
-1. **A Thing I've Built** - Projects (CalderaJS, Cohere, AbbyCare, etc.)
-2. **A Thing I Do** - Specialities (U-Haul driving, hosting tea, jazz, etc.)
+1. **A Think I've Worked On** - Projects (CalderaJS, Cohere, AbbyCare, etc.)
+2. **A Thing I Love** - Specialities (U-Haul driving, hosting tea, jazz, etc.)
 3. **A Thought I've Had** - Thoughts and blog entries
 
 Content is stored as markdown files in the `content/` directory with frontmatter:

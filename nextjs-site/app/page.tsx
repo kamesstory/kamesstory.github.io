@@ -66,7 +66,10 @@ export default function Home() {
 
         {/* Dynamic Content Sections */}
         <div className="space-y-8 mt-16">
-          <ContentSection title="A Thing I've Built" sectionType="projects" />
+          <ContentSection
+            title="A Thing I've Worked On"
+            sectionType="projects"
+          />
           <ContentSection title="A Thing I Love" sectionType="specialities" />
           <ContentSection title="A Thought I've Had" sectionType="thoughts" />
         </div>

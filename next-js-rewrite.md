@@ -20,7 +20,7 @@ Instead, we should have multiple little sections under the intro. Each of these 
 
 These sections are:
 
-1. A Thing I've Built
+1. A Thing I've Worked On
 
 This will be a section on things I've built, essentially list out projects that I've built. For now, fill with lorem ipsum text of various lengths besides the title of the thing I've built.
 
@@ -33,7 +33,7 @@ Here are a list of things I will include:
 - Tech & Check
 - mPower
 
-2. A Thing I Do
+2. A Thing I Love
 
 This is a section on random things that I've done. The goal here is to showcase that I am a DOER, I just do things and delight in life. For now, fill with lorem ipsum text of various lengths.
 
