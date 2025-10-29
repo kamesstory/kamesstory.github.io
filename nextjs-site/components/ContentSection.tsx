@@ -24,7 +24,8 @@ export default function ContentSection({
     scramble: 15,
     seed: 2,
     chance: 1.0,
-    range: [65, 90],
+    range: [65, 125],
+    overdrive: false,
   });
 
   return (
@@ -50,8 +51,7 @@ export default function ContentSection({
       </a>
       <div
         ref={ref}
-        className="text-foreground leading-relaxed font-mono"
-        style={{ textDecoration: "none", borderBottom: "none" }}
+        className="text-foreground leading-relaxed font-mono [&_*]:no-underline [&_*]:!border-0"
       />
     </div>
   );
