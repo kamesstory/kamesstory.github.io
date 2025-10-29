@@ -72,7 +72,7 @@ export default function Home() {
             href="/projects"
           />
           <ContentSection
-            title="A Thing I Do"
+            title="A Thing I Love"
             sectionType="activities"
             href="/activities"
           />
