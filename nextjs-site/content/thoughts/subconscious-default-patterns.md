@@ -1,0 +1,7 @@
+---
+title: subconscious + default patterns
+---
+
+I've always been really happy with how much I understand and rely on my instincts and subconscious. To me, there's a huge difference between working with / trusting / relying upon your subconscious patterns of thought, and being driven by your feelings. The former involves using millennia of honed machinery to get insights derived from accumulated minute subconscious details, which are distinct from what your logical brain can notice and are really valuable. It also runs on its own, which is great since it doesnt require much effort. However, because these patterns are driven by emotional / instinctive machinery that might not apply to a given situation, understanding how your subconscious works and where it is designed to be effective is critical to applying its insights effectively. That's why the latter (being entirely driven by feelings) is bad — you divorce your decision entirely from logic.
+
+A related note to this is that because our brains use shortcuts very aggressively, the right mental models + patterns + frameworks are critical to helping people achieve mastery in an area. I've noticed this in engineering, where the chance to work with this one engineer at one of my previous roles has completely rewired my brain and has, in some ways, 10x'd my decision making skills. I'm curious to find out similar unlocks in other areas — if you know of any, please let me know :)

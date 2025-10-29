@@ -1,0 +1,7 @@
+---
+title: map prediction and building intuition on top of systems
+---
+
+While I was waiting for the Muni tram at Dolores Park, I realized how differently I interpret the predicted arrival times of a train depending on different terrain features. Before the J line hits Dolores Park, there are several curves. These tend to underestimate the time that public transportation will take to arrive, since the train is likely to go slower than the predicted straight-line speed. Meanwhile, after Dolores Park, the J line merges into Market and goes into several tunnels. Tunnels tend to actually overestimate the time that public transportation will take to arrive, since signals from the tunnel tend to be delayed and/or spotty, causing guesses with stale (artificially late) data.
+
+This is probably accounted for in sophisticated mapping algorithms, but it's possible that the Muni system reports its own arrival times and is not sophisticated enough to handle these cases. In any case, I've personally benefitted from incorporating these intuitions on top of the existing system, such as with the J line. Sometimes I think I won't be able to make the train, but even though I sometimes start 50% of the way into my allocated walking time, I do regularly end up making the line. Accounting for these factors qualitatively improves my life by letting me take the chance of making a train when otherwise I might have just given up. There's probably other types of intuitions on top of other systems that can yield similar benefits.
