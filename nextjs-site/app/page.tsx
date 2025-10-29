@@ -34,33 +34,45 @@ export default function Home() {
           <div className="space-y-4 text-foreground text-base">
             <p>
               I'm currently Founding Engineer at{" "}
-              <BioLink href="https://abbycare.com">AbbyCare</BioLink>, building
-              a tech-enabled healthcare agency for low-income families.
-              Previously, I cofounded{" "}
-              <BioLink href="https://cohere.com">Cohere</BioLink> (YC S20),
-              which was recently{" "}
-              <BioLink href="https://ramp.com">acquired by Ramp</BioLink>.
+              <BioLink href="https://www.sequoiacap.com/article/partnering-with-abby-care-a-caregiving-revolution/">
+                AbbyCare
+              </BioLink>
+              , building a tech-enabled healthcare agency for low-income
+              families. Previously, I cofounded{" "}
+              <BioLink href="https://cohere.so">Cohere</BioLink> (YC S20), which
+              was recently{" "}
+              <BioLink href="https://techcrunch.com/2023/06/26/as-the-generative-ai-craze-rages-on-fintech-ramp-acquires-ai-powered-customer-support-startup-cohere-io/">
+                acquired by Ramp
+              </BioLink>
+              .
             </p>
             <p>
               Besides working on things I love, I am a big fan of{" "}
-              <BioLink href="https://abbycare.com">open water swimming</BioLink>
+              <BioLink href="https://www.ncmasters.org/c/8C9F32E/file/oct11-hawaii.pdf">
+                open water swimming
+              </BioLink>
               {", "}
-              <BioLink href="https://abbycare.com">dance</BioLink>
+              <BioLink href="https://www.citydancesf.com/">dance</BioLink>
               {", and "}
-              <BioLink href="https://abbycare.com">web serials</BioLink>
+              <BioLink href="https://palelights.com/2022/08/17/chapter-1/">
+                web serials
+              </BioLink>
               {". "}I am also a major Google Maps stan, so if you need guides to
               any places, you can see mine{" "}
-              <BioLink href="https://abbycare.com">here</BioLink>.
+              <BioLink href="https://maps.app.goo.gl/AQVnkPu3f8KbYR1R8">
+                here
+              </BioLink>
+              .
             </p>
             <p>
               You can find me on{" "}
-              <BioLink href="https://github.com/kamesstory">Github</BioLink>
+              <BioLink href="https://github.com/jasonhfwang">Github</BioLink>
               {", "}
-              <BioLink href="https://linkedin.com/in/jasonwang0">
+              <BioLink href="https://linkedin.com/in/jason-hf-wang">
                 LinkedIn
               </BioLink>
               {", or through my "}
-              <BioLink href="mailto:jason@jasonwa.ng" external={false}>
+              <BioLink href="mailto:hi@jasonwa.ng" external={false}>
                 email
               </BioLink>
               .
