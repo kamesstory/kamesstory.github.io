@@ -40,11 +40,12 @@ body {
 a {
   color: var(--accent);
   text-decoration: none;
-  transition: color 0.2s ease;
+  transition: all 0.15s ease;
   border-bottom: 1px solid var(--accent);
 }
 
 a:hover {
-  color: var(--foreground);
-  border-bottom-color: var(--foreground);
+  color: var(--secondary);
+  border-bottom-color: var(--secondary);
+  text-shadow: 0 0 4px rgba(0, 229, 255, 0.2), 0 0 8px rgba(0, 229, 255, 0.1);
 }

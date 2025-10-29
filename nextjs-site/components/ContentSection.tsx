@@ -54,23 +54,31 @@ export default function ContentSection({
 
   return (
     <div className="mb-10">
-      <h2 className="text-lg font-display font-semibold text-foreground mb-3 tracking-tight">
-        {title}
-      </h2>
-      <div className="relative border border-muted/20 rounded-lg p-4 bg-subtle/10">
-        <div
-          ref={ref}
-          className="text-foreground leading-relaxed font-mono [&_*]:no-underline [&_*]:!border-0 inline"
-        />
+      <div className="flex items-center justify-between mb-3">
+        <h2 className="text-lg font-display font-semibold text-foreground tracking-tight">
+          {title}
+        </h2>
         <button
           onClick={handleRefresh}
           disabled={isRefreshing}
-          className="ml-2 text-accent hover:text-secondary hover:scale-110 active:scale-100 transition-all duration-200 cursor-pointer border-0 bg-transparent px-2 inline-flex items-center"
+          className="text-accent hover:text-secondary hover:scale-110 active:scale-100 transition-all duration-100 cursor-pointer border-0 bg-transparent p-1 inline-flex items-center group text-xl"
           style={{ textDecoration: "none", borderBottom: "none" }}
           title="Refresh content"
         >
-          <span className={isRefreshing ? "animate-spin" : ""}>↻</span>
+          <span
+            className={`${
+              isRefreshing ? "animate-spin" : ""
+            } group-hover:[text-shadow:0_0_4px_rgba(0,229,255,0.2),0_0_8px_rgba(0,229,255,0.1)]`}
+          >
+            ↻
+          </span>
         </button>
+      </div>
+      <div className="relative border border-muted/20 rounded-lg p-4 bg-subtle/10">
+        <div
+          ref={ref}
+          className="text-foreground leading-relaxed font-mono [&_*]:no-underline [&_*]:!border-0"
+        />
       </div>
     </div>
   );
