@@ -25,7 +25,7 @@ export default function BioLink({
       className="inline-flex items-center relative"
     >
       <span>{children}</span>
-      <span className="text-accent text-xs ml-1">↗</span>
+      <span className="text-xs ml-1">↗</span>
     </a>
   );
 }
