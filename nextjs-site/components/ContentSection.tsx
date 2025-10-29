@@ -52,6 +52,7 @@ export default function ContentSection({
   const [hasColon, setHasColon] = useState<boolean>(false);
   const [strippedContent, setStrippedContent] = useState<string>("");
   const [isRefreshing, setIsRefreshing] = useState(false);
+  const [scrambleKey, setScrambleKey] = useState(0);
   const [isScrambling, setIsScrambling] = useState(true);
 
   // Get preset timing based on section type (deterministic for SSR)
@@ -80,6 +81,7 @@ export default function ContentSection({
 
       setContent(data.content);
       setIsScrambling(true);
+      setScrambleKey((prev) => prev + 1);
     } catch (error) {
       console.error("Error fetching content:", error);
     }
@@ -95,7 +97,7 @@ export default function ContentSection({
     setTimeout(() => setIsRefreshing(false), 500);
   };
 
-  const { ref } = useScramble({
+  const { ref, replay } = useScramble({
     text: strippedContent,
     speed: 1,
     tick: 1,
@@ -105,8 +107,15 @@ export default function ContentSection({
     chance: 0.8,
     range: [65, 125],
     overdrive: false,
+    playOnMount: true,
     onAnimationEnd: () => setIsScrambling(false),
   });
+
+  useEffect(() => {
+    if (scrambleKey > 0) {
+      replay();
+    }
+  }, [scrambleKey, replay]);
 
   return (
     <div className="mb-10">
@@ -117,14 +126,15 @@ export default function ContentSection({
         <button
           onClick={handleRefresh}
           disabled={isRefreshing}
-          className="text-accent hover:text-secondary hover:scale-110 active:scale-100 transition-all duration-100 cursor-pointer border-0 bg-transparent p-1 inline-flex items-center group text-xl"
+          className="text-accent hover:text-secondary active:scale-100 transition-all duration-100 cursor-pointer border-0 bg-transparent p-1 inline-flex items-center justify-center group text-xl"
           style={{ textDecoration: "none", borderBottom: "none" }}
           title="Refresh content"
         >
           <span
-            className={`${
-              isRefreshing ? "animate-spin" : ""
+            className={`inline-block ${
+              isRefreshing ? "animate-spin-slow" : ""
             } group-hover:[text-shadow:0_0_4px_rgba(0,212,255,0.2),0_0_8px_rgba(0,212,255,0.1)]`}
+            style={{ paddingBottom: "4px", transformOrigin: "center" }}
           >
             ↻
           </span>
