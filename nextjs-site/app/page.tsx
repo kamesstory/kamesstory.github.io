@@ -8,38 +8,24 @@ export default function Home() {
       <div className="max-w-2xl mx-auto w-full lg:w-1/2">
         {/* Profile Image */}
         <div className="mb-8 w-[30%]">
-          <div className="cursor-pointer overflow-hidden bg-background">
-            {/* Terminal Window Titlebar */}
-            <div className="bg-muted/40 px-2 py-1 flex items-center gap-2 border-b border-accent/20">
-              <div className="flex gap-1">
-                <div className="w-2 h-2 rounded-full bg-secondary/60"></div>
-                <div className="w-2 h-2 rounded-full bg-warning/60"></div>
-                <div className="w-2 h-2 rounded-full bg-tertiary/60"></div>
-              </div>
-              <span className="text-[8px] text-foreground/60 font-mono">
-                jason@swim:~$
-              </span>
-            </div>
-            {/* Image Content */}
-            <div className="p-1">
-              <Image
-                src="/jason-swim-photo-trimmed.png"
-                alt="Jason swimming"
-                width={300}
-                height={300}
-                className="w-full"
-                priority
-              />
-            </div>
+          <div className="overflow-hidden rounded-lg shadow-lg">
+            <Image
+              src="/jason-swim-photo-trimmed.png"
+              alt="Jason swimming"
+              width={300}
+              height={300}
+              className="w-full"
+              priority
+            />
           </div>
         </div>
 
         {/* Intro Section */}
         <div className="mb-12">
-          <h1 className="text-2xl font-mono font-bold mb-6 text-foreground">
+          <h1 className="text-3xl font-bold mb-6 text-foreground">
             Hi, I'm Jason.
           </h1>
-          <div className="space-y-4 text-foreground">
+          <div className="space-y-4 text-foreground text-lg">
             <p>
               I'm currently Founding Engineer at{" "}
               <BioLink href="https://abbycare.com">AbbyCare</BioLink>, building

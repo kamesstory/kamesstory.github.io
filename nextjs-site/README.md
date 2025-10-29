@@ -5,8 +5,8 @@ A modern, professional personal website built with Next.js, featuring dynamic co
 ## Features
 
 - **Modern Stack**: Next.js 16 with App Router, TypeScript, and Tailwind CSS
-- **Monokai Pro Theme**: Dark mode color scheme throughout
-- **Terminal-Style Fonts**: IBM Plex Mono for headings, Inter for body text
+- **Warm Techno-Futurist Theme**: Light, optimistic color scheme with warm tones
+- **Clean Typography**: Inter font for a modern, readable experience
 - **Dynamic Content**: Three rotating sections that randomly display content from markdown files
 - **Scrambling Animation**: Text animations using the `use-scramble` library
 - **Responsive Design**: Mobile-friendly layout with 50% column width on desktop
@@ -92,19 +92,20 @@ Each file should include frontmatter with a title and the content body.
 
 ## Design System
 
-**Colors (Monokai Pro)**:
+**Colors (Digital Optimism - Techno-Futurist Builder)**:
 
-- Background: `#2d2a2e`
-- Foreground: `#fcfcfa`
-- Accent: `#ffd866`
-- Secondary: `#ff6188`
-- Info/Links: `#78dce8`
+- Background: `#f7f9fc` (cool digital white with blue tint)
+- Foreground: `#1a1f36` (deep navy)
+- Accent: `#0066ff` (bright electric blue)
+- Secondary: `#00d4ff` (cyber cyan)
+- Tertiary: `#7c3aed` (vibrant purple)
+- Warning: `#ff9500` (electric orange)
 
 **Typography**:
 
-- Headings: IBM Plex Mono (terminal-style)
+- Headings: Inter (modern sans-serif)
 - Body: Inter (modern sans-serif)
-- Base size: 14px
+- Base size: 16px
 
 ## Future Enhancements
 

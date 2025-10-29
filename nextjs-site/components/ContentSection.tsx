@@ -42,30 +42,28 @@ export default function ContentSection({
 
   const { ref } = useScramble({
     text: content,
-    speed: 1.0,
+    speed: 0.9,
     tick: 1,
-    step: 5,
-    scramble: 15,
+    step: 3,
+    scramble: 8,
     seed: 2,
-    chance: 1.0,
+    chance: 0.8,
     range: [65, 125],
     overdrive: false,
   });
 
   return (
-    <div className="mb-8">
-      <h2 className="font-mono text-lg font-semibold text-foreground mb-3">
-        {title}
-      </h2>
+    <div className="mb-10">
+      <h2 className="text-xl font-semibold text-foreground mb-4">{title}</h2>
       <div className="relative">
         <div
           ref={ref}
-          className="text-foreground leading-relaxed font-mono [&_*]:no-underline [&_*]:!border-0 inline"
+          className="text-foreground leading-relaxed [&_*]:no-underline [&_*]:!border-0 inline"
         />
         <button
           onClick={handleRefresh}
           disabled={isRefreshing}
-          className="ml-2 text-accent hover:text-foreground hover:translate-y-[-1px] active:translate-y-0 transition-all duration-200 cursor-pointer border-0 bg-transparent px-2 inline-flex items-center"
+          className="ml-2 text-accent hover:text-secondary hover:scale-110 active:scale-100 transition-all duration-200 cursor-pointer border-0 bg-transparent px-2 inline-flex items-center"
           style={{ textDecoration: "none", borderBottom: "none" }}
           title="Refresh content"
         >

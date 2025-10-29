@@ -1,16 +1,16 @@
 @import "tailwindcss";
 
 :root {
-  /* Monokai Pro color palette */
-  --background: #1d1a1d;
-  --foreground: #fcfcfa;
-  --accent: #78dce8;
-  --secondary: #ff6188;
-  --tertiary: #a9dc76;
-  --info: #78dce8;
-  --warning: #fc9867;
-  --subtle: #5b595c;
-  --muted: #727072;
+  /* Digital optimism palette - techno-futurist builder vibe */
+  --background: #f7f9fc;
+  --foreground: #1a1f36;
+  --accent: #0066ff;
+  --secondary: #00d4ff;
+  --tertiary: #7c3aed;
+  --info: #00d4ff;
+  --warning: #ff9500;
+  --subtle: #e0e7ff;
+  --muted: #6b7280;
 }
 
 @theme inline {
@@ -31,9 +31,9 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-mono);
-  font-size: 14px;
-  line-height: 1.6;
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.7;
 }
 
 a {
