@@ -11,16 +11,20 @@ Personal website setup reference.
 ## Setup Checklist
 
 ### GitHub Pages
+
 - Enable Pages in repo settings → Pages
 - Set source to deploy from branch (usually `master` or `main`)
 - Custom domain configured in repo settings
 
 ### Domain Configuration (DomainKing.ng)
+
 - Point nameservers to Cloudflare's nameservers
 - Usually: `ns1.cloudflare.com` and `ns2.cloudflare.com` (check Cloudflare dashboard for exact values)
 
 ### Cloudflare
+
 - **DNS Records**:
+
   - `A` records pointing to GitHub Pages IPs:
     - `185.199.108.153`
     - `185.199.109.153`
