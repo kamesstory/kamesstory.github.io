@@ -42,11 +42,12 @@ export default function ContentSection({
           {title}
         </h2>
         <span
-          className={`text-accent transition-opacity duration-200 ${
+          className={`flex items-center gap-2 transition-opacity duration-200 ${
             isHovered ? "opacity-100" : "opacity-0"
           }`}
         >
-          →
+          <span className="text-accent">→</span>
+          <span className="text-muted text-sm italic">(Coming Soon)</span>
         </span>
       </a>
       <div
