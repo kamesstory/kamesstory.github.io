@@ -1,5 +1,5 @@
 ---
-title: Travel Sketches
+title: Drawing Travel Sketches
 ---
 
-**Travel Sketches:** I love drawing scenes that leave an impression on me when I travel. As I've travelled more, I've started seeing fewer things that have left a deep imprint in my mind, and it's not because things are less beautiful — it's because I'm getting too used to that feeling of awe. Sketching forces me to focus on the details, and through that, the feeling and essence of the moment.
+**Drawing Travel Sketches:** I love drawing scenes that leave an impression on me when I travel. As I've travelled more, I've started seeing fewer things that have left a deep imprint in my mind, and it's not because things are less beautiful — it's because I'm getting too used to that feeling of awe. Sketching forces me to focus on the details, and through that, the feeling and essence of the moment.
