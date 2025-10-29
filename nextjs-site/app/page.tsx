@@ -7,8 +7,13 @@ export default function Home() {
     <main className="min-h-screen py-12 px-6">
       <div className="max-w-2xl mx-auto w-full lg:w-1/2">
         {/* Profile Image */}
-        <div className="mb-8 w-[30%]">
-          <div className="overflow-hidden rounded-lg shadow-lg">
+        <div className="mb-8 w-[30%] relative">
+          <div
+            className="overflow-hidden shadow-lg relative"
+            style={{
+              animation: "breathe 8s ease-in-out infinite",
+            }}
+          >
             <Image
               src="/jason-swim-photo-trimmed.png"
               alt="Jason swimming"
@@ -17,6 +22,11 @@ export default function Home() {
               className="w-full"
               priority
             />
+            {/* Corner accents */}
+            <div className="absolute top-0 left-0 w-4 h-4 border-t-2 border-l-2 border-accent/40"></div>
+            <div className="absolute top-0 right-0 w-4 h-4 border-t-2 border-r-2 border-accent/40"></div>
+            <div className="absolute bottom-0 left-0 w-4 h-4 border-b-2 border-l-2 border-accent/40"></div>
+            <div className="absolute bottom-0 right-0 w-4 h-4 border-b-2 border-r-2 border-accent/40"></div>
           </div>
         </div>
 

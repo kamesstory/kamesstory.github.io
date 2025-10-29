@@ -5,8 +5,10 @@ A modern, professional personal website built with Next.js, featuring dynamic co
 ## Features
 
 - **Modern Stack**: Next.js 16 with App Router, TypeScript, and Tailwind CSS
-- **Warm Techno-Futurist Theme**: Light, optimistic color scheme with warm tones
-- **Clean Typography**: Inter font for a modern, readable experience
+- **Humanist Oceanic Tech Theme**: Warm oceanic colors with human-centered design
+- **Organic Animations**: Subtle breathing effects and gentle glows inspired by Anthropic
+- **Geometric Structure**: Clean squares and corner accents inspired by Physical Intelligence
+- **Clean Typography**: Space Grotesk display font with Inter body text
 - **Dynamic Content**: Three rotating sections that randomly display content from markdown files
 - **Scrambling Animation**: Text animations using the `use-scramble` library
 - **Responsive Design**: Mobile-friendly layout with 50% column width on desktop
@@ -92,14 +94,14 @@ Each file should include frontmatter with a title and the content body.
 
 ## Design System
 
-**Colors (Oceanic Futurism - Water Meets Tech)**:
+**Colors (Humanist Oceanic Tech)**:
 
-- Background: `#f5f9ff` (light ocean sky)
+- Background: `#f7f9fc` with subtle gradient (warm ocean sky)
 - Foreground: `#0a1628` (deep water navy)
-- Accent: `#0080ff` (electric ocean blue)
-- Secondary: `#00e5ff` (bright aqua cyan)
-- Tertiary: `#ff2d95` (coral pink accent)
-- Warning: `#ff6b35` (sunset coral)
+- Accent: `#0088ff` (warm ocean blue)
+- Secondary: `#00d4ff` (bright aqua cyan)
+- Tertiary: `#ff8c6b` (warm coral - humanist touch)
+- Muted: `#5a7088` (warm gray-blue)
 
 **Typography**:
 

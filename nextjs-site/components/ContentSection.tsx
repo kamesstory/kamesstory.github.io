@@ -68,13 +68,19 @@ export default function ContentSection({
           <span
             className={`${
               isRefreshing ? "animate-spin" : ""
-            } group-hover:[text-shadow:0_0_4px_rgba(0,229,255,0.2),0_0_8px_rgba(0,229,255,0.1)]`}
+            } group-hover:[text-shadow:0_0_4px_rgba(0,212,255,0.2),0_0_8px_rgba(0,212,255,0.1)]`}
           >
             ↻
           </span>
         </button>
       </div>
-      <div className="relative border border-muted/20 rounded-lg p-4 bg-subtle/10">
+      <div
+        className="relative border border-muted/20 rounded-lg p-4 bg-subtle/10"
+        style={{
+          animation:
+            "breathe 6s ease-in-out infinite, subtle-glow 8s ease-in-out infinite",
+        }}
+      >
         <div
           ref={ref}
           className="text-foreground leading-relaxed font-mono [&_*]:no-underline [&_*]:!border-0"
