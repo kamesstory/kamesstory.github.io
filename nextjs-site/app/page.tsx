@@ -1,13 +1,7 @@
 import ContentSection from "@/components/ContentSection";
 import BioLink from "@/components/BioLink";
-import { getRandomContent } from "@/lib/content";
 
 export default function Home() {
-  // Get random content for each section
-  const project = getRandomContent("projects");
-  const activity = getRandomContent("activities");
-  const thought = getRandomContent("thoughts");
-
   return (
     <main className="min-h-screen py-12 px-6">
       <div className="max-w-2xl mx-auto w-full lg:w-1/2">
@@ -43,29 +37,21 @@ export default function Home() {
 
         {/* Dynamic Content Sections */}
         <div className="space-y-8 mt-16">
-          {project && (
-            <ContentSection
-              title="A Thing I've Built"
-              content={`${project.title}. ${project.content}`}
-              href="/projects"
-            />
-          )}
-
-          {activity && (
-            <ContentSection
-              title="A Thing I Do"
-              content={`${activity.title}. ${activity.content}`}
-              href="/activities"
-            />
-          )}
-
-          {thought && (
-            <ContentSection
-              title="A Thought I've Had"
-              content={`${thought.title}. ${thought.content}`}
-              href="/thoughts"
-            />
-          )}
+          <ContentSection
+            title="A Thing I've Built"
+            sectionType="projects"
+            href="/projects"
+          />
+          <ContentSection
+            title="A Thing I Do"
+            sectionType="activities"
+            href="/activities"
+          />
+          <ContentSection
+            title="A Thought I've Had"
+            sectionType="thoughts"
+            href="/thoughts"
+          />
         </div>
       </div>
     </main>
