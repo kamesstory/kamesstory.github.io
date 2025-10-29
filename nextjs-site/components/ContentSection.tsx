@@ -8,6 +8,15 @@ type ContentSectionProps = {
   sectionType: "projects" | "specialities" | "thoughts";
 };
 
+// Preset animation timings that feel random but are consistent
+const animationPresets = [
+  { breathe: 6.2, glow: 8.5, delay: -3.7 },
+  { breathe: 7.8, glow: 9.3, delay: -6.1 },
+  { breathe: 5.4, glow: 10.7, delay: -2.3 },
+];
+
+let presetIndex = 0;
+
 type ContentItem = {
   title: string;
   content: string;
@@ -19,6 +28,13 @@ export default function ContentSection({
 }: ContentSectionProps) {
   const [content, setContent] = useState<string>("");
   const [isRefreshing, setIsRefreshing] = useState(false);
+
+  // Get preset timing for this instance
+  const [timing] = useState(() => {
+    const preset = animationPresets[presetIndex % animationPresets.length];
+    presetIndex++;
+    return preset;
+  });
 
   const fetchRandomContent = async () => {
     try {
@@ -74,17 +90,23 @@ export default function ContentSection({
           </span>
         </button>
       </div>
-      <div
-        className="relative border border-muted/20 rounded-lg p-4 bg-subtle/10"
-        style={{
-          animation:
-            "breathe 6s ease-in-out infinite, subtle-glow 8s ease-in-out infinite",
-        }}
-      >
+      <div className="relative">
+        {/* Second box underneath - implies more content */}
+        <div className="absolute inset-0 translate-x-2 translate-y-2 border border-muted/15 bg-accent/3"></div>
+
+        {/* Main box */}
         <div
-          ref={ref}
-          className="text-foreground leading-relaxed font-mono [&_*]:no-underline [&_*]:!border-0"
-        />
+          className="relative border border-muted/20 p-4 bg-background transition-shadow duration-300 hover:shadow-[0_0_18px_3px_rgba(0,136,255,0.15)]"
+          style={{
+            animation: `breathe ${timing.breathe}s ease-in-out infinite, subtle-glow ${timing.glow}s ease-in-out infinite`,
+            animationDelay: `${timing.delay}s, ${timing.delay * 0.8}s`,
+          }}
+        >
+          <div
+            ref={ref}
+            className="text-foreground leading-relaxed font-mono [&_*]:no-underline [&_*]:!border-0"
+          />
+        </div>
       </div>
     </div>
   );
