@@ -2,4 +2,4 @@
 title: Dance
 ---
 
-Tension, push and pull, strength and beauty. The art of movement and connection through dance.
+Very few things in life let you become aware of every part of your body, and use it to express. So many lessons to learn here — from playing with tension, being comfortable looking awkward, and leaning towards while controlling expression. Plus, the music's great too :)

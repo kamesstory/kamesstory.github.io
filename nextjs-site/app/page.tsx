@@ -42,6 +42,15 @@ export default function Home() {
               <BioLink href="https://ramp.com">acquired by Ramp</BioLink>.
             </p>
             <p>
+              Besides working on things I love, I am a big fan of{" "}
+              <BioLink href="https://abbycare.com">open water swimming</BioLink>
+              , <BioLink href="https://abbycare.com">dance</BioLink>, and{" "}
+              <BioLink href="https://abbycare.com">web serials</BioLink>. I am
+              also a major Google Maps stan, so if you need guides to any
+              places, you can see mine{" "}
+              <BioLink href="https://abbycare.com">here</BioLink>.
+            </p>
+            <p>
               You can find me on{" "}
               <BioLink href="https://github.com/kamesstory">Github</BioLink>,{" "}
               <BioLink href="https://linkedin.com/in/jasonwang0">
