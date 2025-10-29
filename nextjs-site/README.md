@@ -108,7 +108,7 @@ Each file should include frontmatter with a title and the content body.
 
 ## Future Enhancements
 
-- Implement actual routing for section links (`/projects`, `/specialities`, `/thoughts`)
+- Implement actual routing for section links (`/projects` as well as `/writing`). Each specific item within my randomized lists should link to something longer form, because the truth is I view a lot of these randomized things as important parts of myself.
 - Add individual content pages
 - Implement content filtering and search
 - Add transitions between random content selections
