@@ -85,7 +85,7 @@ export default function ContentSection({
         <button
           onClick={handleRefresh}
           disabled={isRefreshing}
-          className="ml-2 text-accent hover:text-foreground transition-colors duration-200 cursor-pointer border-0 bg-transparent p-0 inline-flex items-center"
+          className="ml-2 text-accent hover:text-foreground hover:translate-y-[-1px] active:translate-y-0 transition-all duration-200 cursor-pointer border-0 bg-transparent px-2 inline-flex items-center"
           style={{ textDecoration: "none", borderBottom: "none" }}
           title="Refresh content"
         >
