@@ -23,17 +23,23 @@ type ContentItem = {
   content: string;
 };
 
-// Strip markdown links to plain text for scrambling
+// Strip markdown formatting to plain text for scrambling
 function stripMarkdownLinks(text: string): string {
-  return text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, "$1");
+  return text
+    .replace(/\*\*([^*]+)\*\*/g, "$1") // bold
+    .replace(/_([^_]+)_/g, "$1") // italic (underscore)
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, "$1"); // links
 }
 
-// Convert markdown-style links [text](url) to HTML
+// Convert markdown to HTML (bold, italic, links)
 function markdownToHTML(text: string): string {
-  return text.replace(
-    /\[([^\]]+)\]\(([^)]+)\)/g,
-    '<a href="$2" target="_blank" rel="noopener noreferrer" class="text-accent hover:text-secondary transition-colors duration-150">$1</a>'
-  );
+  return text
+    .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
+    .replace(/_([^_]+)_/g, "<em>$1</em>")
+    .replace(
+      /\[([^\]]+)\]\(([^)]+)\)/g,
+      '<a href="$2" target="_blank" rel="noopener noreferrer" class="text-accent hover:text-secondary transition-colors duration-150">$1</a>'
+    );
 }
 
 export default function ContentSection({
@@ -41,6 +47,9 @@ export default function ContentSection({
   sectionType,
 }: ContentSectionProps) {
   const [content, setContent] = useState<string>("");
+  const [contentTitle, setContentTitle] = useState<string>("");
+  const [contentBody, setContentBody] = useState<string>("");
+  const [hasColon, setHasColon] = useState<boolean>(false);
   const [strippedContent, setStrippedContent] = useState<string>("");
   const [isRefreshing, setIsRefreshing] = useState(false);
   const [isScrambling, setIsScrambling] = useState(true);
@@ -52,9 +61,24 @@ export default function ContentSection({
     try {
       const response = await fetch(`/api/content/${sectionType}`);
       const data: ContentItem = await response.json();
-      const fullContent = `${data.title}. ${data.content}`;
-      setContent(fullContent);
-      setStrippedContent(stripMarkdownLinks(fullContent));
+
+      // Extract bold title from the beginning of content
+      const titleMatch = data.content.match(/^\*\*([^*]+)\*\*(:?)\s*/);
+      if (titleMatch) {
+        setContentTitle(titleMatch[1]);
+        setHasColon(titleMatch[2] === ":");
+        setContentBody(data.content.substring(titleMatch[0].length));
+        setStrippedContent(
+          stripMarkdownLinks(data.content.substring(titleMatch[0].length))
+        );
+      } else {
+        setContentTitle("");
+        setHasColon(false);
+        setContentBody(data.content);
+        setStrippedContent(stripMarkdownLinks(data.content));
+      }
+
+      setContent(data.content);
       setIsScrambling(true);
     } catch (error) {
       console.error("Error fetching content:", error);
@@ -118,17 +142,24 @@ export default function ContentSection({
             animationDelay: `${timing.delay}s, ${timing.delay * 0.8}s`,
           }}
         >
-          {isScrambling ? (
-            <div
-              ref={ref}
-              className="text-foreground leading-relaxed font-mono"
-            />
-          ) : (
-            <div
-              className="text-foreground leading-relaxed font-mono [&_a]:border-b [&_a]:border-accent"
-              dangerouslySetInnerHTML={{ __html: markdownToHTML(content) }}
-            />
-          )}
+          <div className="text-foreground leading-relaxed font-mono">
+            {contentTitle && (
+              <>
+                <strong className="font-bold">{contentTitle}</strong>
+                {hasColon ? ": " : " "}
+              </>
+            )}
+            {isScrambling ? (
+              <span ref={ref} />
+            ) : (
+              <span
+                className="[&_a]:border-b [&_a]:border-accent"
+                dangerouslySetInnerHTML={{
+                  __html: markdownToHTML(contentBody),
+                }}
+              />
+            )}
+          </div>
         </div>
       </div>
     </div>

@@ -1,8 +1,8 @@
 ---
-title: forever clothing
+title: Forever Clothing
 ---
 
-I used to chase timeless fashion by sticking to high-quality basics, thinking I was above trends. But diving deeper into fashion made me realize I feel best when I take what's good from trends while reflecting who I actually am. Streetwear is a great example — while I don't vibe with the anarchic edge, I love how it plays with form and silhouettes.
+**Forever Clothing:** I used to chase timeless fashion by sticking to high-quality basics, thinking I was above trends. But diving deeper into fashion made me realize I feel best when I take what's good from trends while reflecting who I actually am. Streetwear is a great example — while I don't vibe with the anarchic edge, I love how it plays with form and silhouettes.
 
 Now I realize that if a piece captures some core kernel of who I am, it's timeless _for me_. Here's what "forever clothing" needs:
 

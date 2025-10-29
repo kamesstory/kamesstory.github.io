@@ -1,8 +1,8 @@
 ---
-title: all advice is bad
+title: All Advice is Bad
 ---
 
-and it's your responsibility to parse what works for you. To do so, you must understand:
+**All Advice is Bad** and it's your responsibility to parse what works for you. To do so, you must understand:
 
 1. (X) What actually works for them
 2. (Y) Their mental model of themselves, aka what they think works for them.
