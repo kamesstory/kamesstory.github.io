@@ -7,15 +7,17 @@ export default function Home() {
     <main className="min-h-screen py-12 px-6">
       <div className="max-w-2xl mx-auto w-full lg:w-1/2">
         {/* Profile Image */}
-        <div className="mb-8">
-          <Image
-            src="/jason-swim-photo-trimmed.png"
-            alt="Jason swimming"
-            width={300}
-            height={300}
-            className="w-[30%]"
-            priority
-          />
+        <div className="mb-8 w-[30%]">
+          <div className="border-2 border-accent/30 p-1 bg-subtle/20 cursor-pointer">
+            <Image
+              src="/jason-swim-photo-trimmed.png"
+              alt="Jason swimming"
+              width={300}
+              height={300}
+              className="w-full grayscale hover:grayscale-0 transition-all duration-300"
+              priority
+            />
+          </div>
         </div>
 
         {/* Intro Section */}
