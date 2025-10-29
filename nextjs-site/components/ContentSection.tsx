@@ -18,7 +18,13 @@ export default function ContentSection({
 
   const { ref } = useScramble({
     text: content,
+    speed: 1.0,
     tick: 1,
+    step: 5,
+    scramble: 15,
+    seed: 2,
+    chance: 1.0,
+    range: [65, 90],
   });
 
   return (
@@ -44,7 +50,7 @@ export default function ContentSection({
       </a>
       <div
         ref={ref}
-        className="text-foreground leading-relaxed"
+        className="text-foreground leading-relaxed font-mono"
         style={{ textDecoration: "none", borderBottom: "none" }}
       />
     </div>
