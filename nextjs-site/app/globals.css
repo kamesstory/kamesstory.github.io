@@ -1,16 +1,16 @@
 @import "tailwindcss";
 
 :root {
-  /* Digital optimism palette - techno-futurist builder vibe */
-  --background: #f7f9fc;
-  --foreground: #1a1f36;
-  --accent: #0066ff;
-  --secondary: #00d4ff;
-  --tertiary: #7c3aed;
-  --info: #00d4ff;
-  --warning: #ff9500;
-  --subtle: #e0e7ff;
-  --muted: #6b7280;
+  /* Oceanic futurism - water meets tech */
+  --background: #f5f9ff;
+  --foreground: #0a1628;
+  --accent: #0080ff;
+  --secondary: #00e5ff;
+  --tertiary: #ff2d95;
+  --info: #00e5ff;
+  --warning: #ff6b35;
+  --subtle: #e0f0ff;
+  --muted: #4a6b8a;
 }
 
 @theme inline {
@@ -26,6 +26,7 @@
   --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
     sans-serif;
   --font-mono: "IBM Plex Mono", "Courier New", monospace;
+  --font-display: "Space Grotesk", "Inter", sans-serif;
 }
 
 body {

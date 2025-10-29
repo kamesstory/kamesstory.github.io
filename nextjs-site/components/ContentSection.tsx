@@ -54,11 +54,13 @@ export default function ContentSection({
 
   return (
     <div className="mb-10">
-      <h2 className="text-xl font-semibold text-foreground mb-4">{title}</h2>
+      <h2 className="text-xl font-display font-semibold text-foreground mb-4 tracking-tight">
+        {title}
+      </h2>
       <div className="relative border border-muted/20 rounded-lg p-4 bg-subtle/10">
         <div
           ref={ref}
-          className="text-foreground leading-relaxed [&_*]:no-underline [&_*]:!border-0 inline"
+          className="text-foreground leading-relaxed font-mono [&_*]:no-underline [&_*]:!border-0 inline"
         />
         <button
           onClick={handleRefresh}

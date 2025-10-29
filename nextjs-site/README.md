@@ -92,19 +92,20 @@ Each file should include frontmatter with a title and the content body.
 
 ## Design System
 
-**Colors (Digital Optimism - Techno-Futurist Builder)**:
+**Colors (Oceanic Futurism - Water Meets Tech)**:
 
-- Background: `#f7f9fc` (cool digital white with blue tint)
-- Foreground: `#1a1f36` (deep navy)
-- Accent: `#0066ff` (bright electric blue)
-- Secondary: `#00d4ff` (cyber cyan)
-- Tertiary: `#7c3aed` (vibrant purple)
-- Warning: `#ff9500` (electric orange)
+- Background: `#f5f9ff` (light ocean sky)
+- Foreground: `#0a1628` (deep water navy)
+- Accent: `#0080ff` (electric ocean blue)
+- Secondary: `#00e5ff` (bright aqua cyan)
+- Tertiary: `#ff2d95` (coral pink accent)
+- Warning: `#ff6b35` (sunset coral)
 
 **Typography**:
 
-- Headings: Inter (modern sans-serif)
+- Display/Headings: Space Grotesk (geometric, futuristic)
 - Body: Inter (modern sans-serif)
+- Code/Mono: IBM Plex Mono
 - Base size: 16px
 
 ## Future Enhancements
