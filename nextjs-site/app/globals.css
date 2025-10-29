@@ -4,7 +4,7 @@
   /* Monokai Pro color palette */
   --background: #2d2a2e;
   --foreground: #fcfcfa;
-  --accent: #ffd866;
+  --accent: #78dce8;
   --secondary: #ff6188;
   --tertiary: #a9dc76;
   --info: #78dce8;
@@ -37,11 +37,13 @@ body {
 }
 
 a {
-  color: var(--info);
-  text-decoration: underline;
+  color: var(--accent);
+  text-decoration: none;
   transition: color 0.2s ease;
+  border-bottom: 1px solid var(--accent);
 }
 
 a:hover {
-  color: var(--accent);
+  color: var(--foreground);
+  border-bottom-color: var(--foreground);
 }

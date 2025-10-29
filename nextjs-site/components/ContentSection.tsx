@@ -18,18 +18,15 @@ export default function ContentSection({
 
   const { ref } = useScramble({
     text: content,
-    speed: 0.6,
     tick: 1,
-    step: 1,
-    scramble: 4,
-    seed: 0,
   });
 
   return (
     <div className="mb-8">
       <a
         href={href}
-        className="group inline-flex items-center gap-2 mb-3 no-underline"
+        className="group inline-flex items-center gap-2 mb-3 border-0"
+        style={{ textDecoration: "none", borderBottom: "none" }}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
         onClick={(e) => e.preventDefault()}
@@ -45,7 +42,11 @@ export default function ContentSection({
           →
         </span>
       </a>
-      <div ref={ref} className="text-foreground leading-relaxed" />
+      <div
+        ref={ref}
+        className="text-foreground leading-relaxed"
+        style={{ textDecoration: "none", borderBottom: "none" }}
+      />
     </div>
   );
 }

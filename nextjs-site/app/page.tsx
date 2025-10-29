@@ -1,4 +1,5 @@
 import ContentSection from "@/components/ContentSection";
+import BioLink from "@/components/BioLink";
 import { getRandomContent } from "@/lib/content";
 
 export default function Home() {
@@ -18,50 +19,24 @@ export default function Home() {
           <div className="space-y-4 text-foreground">
             <p>
               I'm currently Founding Engineer at{" "}
-              <a
-                href="https://abbycare.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                AbbyCare
-              </a>
-              , building a tech-enabled healthcare agency for low-income
-              families. Previously, I cofounded{" "}
-              <a
-                href="https://cohere.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Cohere
-              </a>{" "}
-              (YC S20), which was recently{" "}
-              <a
-                href="https://ramp.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                acquired by Ramp
-              </a>
-              .
+              <BioLink href="https://abbycare.com">AbbyCare</BioLink>, building
+              a tech-enabled healthcare agency for low-income families.
+              Previously, I cofounded{" "}
+              <BioLink href="https://cohere.com">Cohere</BioLink> (YC S20),
+              which was recently{" "}
+              <BioLink href="https://ramp.com">acquired by Ramp</BioLink>.
             </p>
             <p>
               You can find me on{" "}
-              <a
-                href="https://github.com/kamesstory"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Github
-              </a>
-              ,{" "}
-              <a
-                href="https://linkedin.com/in/jasonwang0"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <BioLink href="https://github.com/kamesstory">Github</BioLink>,{" "}
+              <BioLink href="https://linkedin.com/in/jasonwang0">
                 LinkedIn
-              </a>
-              , or through my <a href="mailto:jason@jasonwa.ng">email</a>.
+              </BioLink>
+              , or through my{" "}
+              <BioLink href="mailto:jason@jasonwa.ng" external={false}>
+                email
+              </BioLink>
+              .
             </p>
           </div>
         </div>
