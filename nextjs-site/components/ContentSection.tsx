@@ -125,8 +125,9 @@ export default function ContentSection({
         </h2>
         <button
           onClick={handleRefresh}
+          onMouseLeave={(e) => e.currentTarget.blur()}
           disabled={isRefreshing}
-          className="text-accent hover:text-secondary active:scale-100 transition-all duration-100 cursor-pointer border-0 bg-transparent p-1 inline-flex items-center justify-center group text-xl"
+          className="text-accent hover:text-secondary focus:text-accent active:scale-100 transition-all duration-100 cursor-pointer border-0 bg-transparent p-1 inline-flex items-center justify-center group text-xl focus:outline-none"
           style={{ textDecoration: "none", borderBottom: "none" }}
           title="Refresh content"
         >
