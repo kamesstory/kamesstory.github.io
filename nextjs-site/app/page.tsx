@@ -1,10 +1,23 @@
 import ContentSection from "@/components/ContentSection";
 import BioLink from "@/components/BioLink";
+import Image from "next/image";
 
 export default function Home() {
   return (
     <main className="min-h-screen py-12 px-6">
       <div className="max-w-2xl mx-auto w-full lg:w-1/2">
+        {/* Profile Image */}
+        <div className="mb-8">
+          <Image
+            src="/jason-swim-photo-trimmed.png"
+            alt="Jason swimming"
+            width={300}
+            height={300}
+            className="w-[30%]"
+            priority
+          />
+        </div>
+
         {/* Intro Section */}
         <div className="mb-12">
           <h1 className="text-2xl font-mono font-bold mb-6 text-foreground">
