@@ -25,7 +25,7 @@ export default function BioLink({
       className="inline relative"
     >
       {children}
-      <span className="text-xs ml-1">↗</span>
+      <span className="text-xs ml-1">↗︎</span>
     </a>
   );
 }
