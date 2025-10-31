@@ -46,13 +46,11 @@ export default function ContentSection({
   title,
   sectionType,
 }: ContentSectionProps) {
-  const [content, setContent] = useState<string>("");
   const [contentTitle, setContentTitle] = useState<string>("");
   const [contentBody, setContentBody] = useState<string>("");
   const [hasColon, setHasColon] = useState<boolean>(false);
   const [strippedContent, setStrippedContent] = useState<string>("");
   const [isRefreshing, setIsRefreshing] = useState(false);
-  const [scrambleKey, setScrambleKey] = useState(0);
   const [isScrambling, setIsScrambling] = useState(true);
 
   // Get preset timing based on section type (deterministic for SSR)
@@ -79,9 +77,7 @@ export default function ContentSection({
         setStrippedContent(stripMarkdownLinks(data.content));
       }
 
-      setContent(data.content);
       setIsScrambling(true);
-      setScrambleKey((prev) => prev + 1);
     } catch (error) {
       console.error("Error fetching content:", error);
     }
@@ -97,7 +93,7 @@ export default function ContentSection({
     setTimeout(() => setIsRefreshing(false), 500);
   };
 
-  const { ref, replay } = useScramble({
+  const { ref } = useScramble({
     text: strippedContent,
     speed: 1,
     tick: 1,
@@ -107,15 +103,9 @@ export default function ContentSection({
     chance: 0.8,
     range: [65, 125],
     overdrive: false,
-    playOnMount: true,
+    playOnMount: false,
     onAnimationEnd: () => setIsScrambling(false),
   });
-
-  useEffect(() => {
-    if (scrambleKey > 0) {
-      replay();
-    }
-  }, [scrambleKey, replay]);
 
   return (
     <div className="mb-10">
